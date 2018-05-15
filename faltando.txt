@@ -1,14 +1,7 @@
 
 -Arrumar pesquisar por todos os campos
 
--Ajustar pagina de cadastro, enviar para analise(Acao js)  e mostrar situação (Apenas quando esta editando um projeto)
-
 -Enviar email em Contato
-
--Menu em ações para determinado usuario
-    -Enviar para analise
-    -Reprovar ou Enviar para Extensao
-    -Reprovar ou aprovar
     
 -listar coordenadores e salvar na acao
 
