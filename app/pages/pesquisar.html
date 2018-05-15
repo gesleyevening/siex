@@ -1,0 +1,135 @@
+<!-- START BREADCRUMB -->
+<ul class="breadcrumb">
+    <li><a href="#!/">Home</a></li>
+    <li class="active">Pesquisar</li>
+</ul>
+<!-- END BREADCRUMB -->
+
+<!-- PAGE CONTENT WRAPPER -->
+<div class="container">
+    <div class="col-md-12">
+        <form class="form-horizontal" ng-submit="pesquisar()" id="jvalidate" role="form">
+            <div class="panel-body tab-content">
+                <!--
+                            <div class="form-group">
+                                <label class="col-md-3 col-xs-12 control-label"> Início </label>
+                                <div class="col-md-6 col-xs-12">
+                                    <input type="text" name="inicio" class="form-control datepicker" data-mask="00/00/0000" data-mask-reverse="false" placeholder="Data de Início" ng-model="pesquisar.inicio" value="" />
+                                    <?php echo date('d/m/Y', strtotime($data)); ?>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-md-3 col-xs-12 control-label"> Término </label>
+                                <div class="col-md-6 col-xs-12">
+                                    <input type="text" name="termino" class="form-control datepicker" data-mask="00/00/0000" data-mask-reverse="false" placeholder="Data de Término" ng-model="pesquisar.termino" value="" />
+                                </div>
+                            </div>
+                            -->
+                <div class="form-group">
+                    <label class="col-md-2 control-label"> Titulo </label>
+                    <div class="col-md-4">
+                        <input type="text" name="titulo" class="form-control" placeholder="Titulo do Projeto" ng-model="pesquisa.titulo" value="" />
+                    </div>
+
+                    <label class="col-md-2 control-label"> Tipo </label>
+                    <div class="col-md-4 ">
+                        <select class="form-control select" data-live-search="true" ng-model="pesquisa.tipo_acao">
+                                        <option class="small-font" selected></option>
+                                        <option class="small-font" ng-repeat="c in tiposAcaos" data-select-watcher data-last="{{$last}}" value="{{c.id}}">{{c.descricao}}</option>
+                                    </select>
+                    </div>
+                </div>
+
+                <!--<div class="form-group">
+                                <label class="col-md-3 col-xs-12 control-label"> Membro da Equipe </label>
+                                <div class="col-md-6 col-xs-12">
+                                    <input type="text" name="membro_equipe" class="form-control" placeholder="Membro da Equipe" ng-model="pesquisar.membro_equipe" value="" />
+                                </div>
+                            </div>-->
+
+                <div class="form-group">
+                    <label class="col-md-2 col-xs-12 control-label"> Curso </label>
+                    <div class="col-md-4 col-xs-12">
+                        <select class="form-control select" data-live-search="true" ng-model="pesquisa.curso">
+                                    <option class="small-font" selected></option>
+                                    <option class="small-font" ng-repeat="c in cursos" data-select-watcher data-last="{{$last}}" value="{{c.id}}">{{c.nome}}</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-md-3 col-xs-12 control-label"> Área Temática Integradora </label>
+                    <div class="col-md-6 col-xs-12">
+                        <select class="form-control select" data-live-search="true" ng-model="pesquisar.areaTematicaIntegradora">
+                            <option class="small-font" selected></option>
+                            <option class="small-font" ng-repeat="c in areasTematicas" data-select-watcher data-last="{{$last}}" value="{{c.id}}">{{c.nome}}</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="col-md-3 col-xs-12 control-label"> Objetivos ONU </label>
+                    <div class="col-md-6 col-xs-12">
+                        <select class="form-control select" data-live-search="true" ng-model="pesquisar.objetivosOnu">
+                            <option class="small-font" selected></option>
+                            <option class="small-font" ng-repeat="c in objetivosOnu" data-select-watcher data-last="{{$last}}" value="{{c.id}}">{{c.nome}}</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="col-md-3 col-xs-12 control-label"> Desafios BH 2030 </label>
+                    <div class="col-md-6 col-xs-12">
+                        <select class="form-control select" data-live-search="true" ng-model="pesquisar.desafiosBH2030">
+                            <option class="small-font" selected></option>
+                            <option class="small-font" ng-repeat="c in desafiosBh2030" data-select-watcher data-last="{{$last}}" value="{{c.id}}">{{c.nome}}</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <button ng-click="" type="submit" class="btn btn-primary btn-lg pull-right">Pesquisar
+                        <span class="fa fa-floppy-o fa-right"></span>
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <div class="panel panel-default">
+        <div class="panel-body posts">
+            <div ng-repeat="a in acao">
+                <div class="col-md-4">
+                    <div class="post-item">
+                        <div class="post-title">
+                            <a href="acao.html?id={{a.id}}">{{a.tipo_acao.descricao}}: {{a.titulo}}</a>
+                        </div>
+                        <div class="post-date"><span class="fa fa-calendar"></span> {{a.dt_registro}} / {{a.situacao.descricao}} / Por: <a href="#">{{a.professor.nome}}</a></div>
+                        <div class="post-text">
+                            <img src="assets/images/blog/post_1.jpg" class="img-responsive img-text" />
+                            <p>
+                                <span style="solid #000;	width: 170px;	height: 10px;	overflow: hidden;">
+                                                        {{a.descricao}}
+                                            </span>...
+
+                            </p>
+                        </div>
+                        <div class="post-row">
+                            <div class="post-info">
+                                <ul class="list-tags">
+                                    <li ng-repeat="p in a.ownPalavrachave"><a href="#"><span class="fa fa-tag"></span> {{p.palavra}}</a></li>
+                                </ul>
+                            </div>
+                            <a href="acao.html?id={{a.id}}" class="btn btn-default btn-rounded pull-right">Ver mais &RightArrow;</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+</div>
+</select>
+</div>
+</div>
+<script type="text/javascript" src="../commons/selectBox.js"></script>

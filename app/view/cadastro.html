@@ -1,0 +1,184 @@
+<!-- START BREADCRUMB -->
+<div class="nav-content">
+    <ul class="tabs  blue-grey lighten-5">
+        <li class="tab"><a href="#/">Home</a></li>
+        <li class="tab"><a class="active" ng-href="#cadastrar_acao">Novo Projeto</a></li>
+    </ul>
+</div>
+<!-- END BREADCRUMB -->
+<!-- PAGE TITLE -->
+<div class="page-title">
+    <h2><span class="fa fa-arrow-circle-o"></span>Novo Projeto</h2>
+</div>
+<!-- END PAGE TITLE -->
+<div class="row" ng-init="init()">
+    <div class="container container-90">
+        <form class="col s12" ng-submit="cadastrar_acao()">
+            <div class="row">
+                <div class="col s12">
+                    <ul id="tabs-swipe-demo" class="tabs">
+                        <li class="tab col "><a ng-class="{ active: isSet(1) }" href ng-click="setTab(1)">Novo Projeto</a></li>
+                        <li class="tab col "><a ng-class="{ active: isSet(2) }" href ng-click="setTab(2)">Equipe</a></li>
+                        <li class="tab col "><a ng-class="{ active: isSet(3) }" href ng-click="setTab(3)">Parceria</a></li>
+                        <li class="tab col "><a ng-class="{ active: isSet(4) }" href ng-click="setTab(4)">Resultados</a></li>
+                        <li class="tab col "><a ng-class="{ active: isSet(5) }" href ng-click="setTab(5)">Histórico</a></li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="col s9 m9 l9">
+                <nav class="white myform">
+                    <div class=" container container-90">
+                        <div id="novoProjeto" ng-show="isSet(1)">
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <h5>Tipo de Ação</h5>
+                                </div>
+                                <div class="col s2" ng-repeat="t in tiposAcaos">
+                                    <input name="tipoAcao" id="tipoAcao{{$index}}" type="radio" ng-model="acao.tipoAcao" ng-value="t.id" />
+                                    <label for="tipoAcao{{$index}}">{{t.descricao}}</label>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="input-field col s6">
+                                    <input placeholder="Titulo" id="titulo" type="text" ng-model="acao.titulo">
+                                    <label for="titulo" class="active">Titulo *</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s6">
+                                    <select material-select watch id="cursoResponsavel" class="form-control" ng-model="acao.cursoResponsavel">
+                                        <option class="small-font" ng-repeat="c in cursos" value="{{c.id}}">{{c.nome}}</option>
+                                    </select>
+                                    <label for="cursoResponsavel" class="active">Curso Responsavel *</label>
+                                </div>
+                                <div class="input-field col s6">
+                                    <select material-select watch id="coordenador" class="form-control" ng-model="acao.coordenador">
+                                <option class="small-font" selected>Selecione...</option>
+                                <option class="small-font" ng-repeat="c in listaCoor" value="{{c.id}}">{{c.nome}}</option>
+                            </select>
+                                    <label for="coordenador" class="active">Coordenador *</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <h5>Área temática intregadora</h5>
+                                </div>
+                                <div class="row">
+                                    <div class="col s4" ng-repeat="x in areasTematicas">
+                                        <input type="checkbox" class="filled-in" id="areasTematica{{$index}}" ng-model="acao.areaTematicaIntegradora[x.id]" value="{{x.id}}" />
+                                        <label for="areasTematica{{$index}}">{{x.nome}}</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col s12">
+                                    <h5>Objetivos de Desenvolvimento Sustentável da ONU</h5>
+                                </div>
+                                <div class="row">
+                                    <div class="col s4" ng-repeat="x in objetivosOnu">
+                                        <input type="checkbox" class="filled-in" id="objetivosONU{{$index}}" ng-model="acao.objetivosONU[x.id]" value="{{x.id}}" />
+                                        <label for="objetivosONU{{$index}}">{{x.nome}}</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col s12">
+                                    <h5>Desafios do Planejamento Estratégico de BH 2030</h5>
+                                </div>
+                                <div class="row">
+                                    <div class="col s6" ng-repeat="x in desafiosBh2030">
+                                        <input type="checkbox" class="filled-in" id="desafiosBH2030{{$index}}" ng-model="acao.desafiosBH2030[x.id]" value="{{x.id}}" />
+                                        <label for="desafiosBH2030{{$index}}">{{x.nome}}</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col s12">
+                                    <h5>Cursos Envolvido</h5>
+                                </div>
+                                <div class="row">
+                                    <div class="col s3" ng-repeat="x in cursos">
+                                        <input type="checkbox" class="filled-in" id="cursos_envolvidos{{$index}}" ng-model="acao.cursos_envolvidos[x.id]" value="{{x.id}}" />
+                                        <label for="cursos_envolvidos{{$index}}">{{x.nome}}</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <textarea id="descricao" class="materialize-textarea" ng-model="acao.descricao"></textarea>
+                                    <label for="descricao">Descrição *</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <textarea id="objetivo" class="materialize-textarea" placeholder="Objetivo" ng-model="acao.objetivo"></textarea>
+                                    <label for="objetivo" class="active">Objetivo *</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s4">
+                                    <input input-date type="text" name="created" id="dataInicio" ng-model="acao.dataInicio" container="" format="dd/mm/yyyy" months-full="{{ month }}" months-short="{{ monthShort }}" weekdays-full="{{ weekdaysFull }}" weekdays-short="{{ weekdaysShort }}"
+                                        weekdays-letter="{{ weekdaysLetter }}" disable="disable" min="{{ minDate }}" max="{{ maxDate }}" today="today" first-day="1" clear="clear" close="close" select-years="15" />
+                                    <label for="dataInicio" class="active">Data de início *</label>
+                                </div>
+                                <div class="input-field col s4">
+                                    <input input-date type="text" name="created" id="dataTermino" ng-model="acao.dataTermino" container="" format="dd/mm/yyyy" months-full="{{ month }}" months-short="{{ monthShort }}" weekdays-full="{{ weekdaysFull }}" weekdays-short="{{ weekdaysShort }}"
+                                        weekdays-letter="{{ weekdaysLetter }}" disable="disable" min="{{ minDate }}" max="{{ maxDate }}" today="today" first-day="1" clear="clear" close="close" select-years="15" />
+                                    <label for="dataTermino" class="active">Data de término </label>
+                                </div>
+                                <div class="input-field col s4">
+                                    <input input-date type="text" name="created" id="dataResgistro" ng-model="acao.dataResgistro" container="" format="dd/mm/yyyy" months-full="{{ month }}" months-short="{{ monthShort }}" weekdays-full="{{ weekdaysFull }}" weekdays-short="{{ weekdaysShort }}"
+                                        weekdays-letter="{{ weekdaysLetter }}" disable="disable" min="{{ minDate }}" max="{{ maxDate }}" today="today" first-day="1" clear="clear" close="close" select-years="15" />
+                                    <label for="dataResgistro" class="active">Data de registro </label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s6">
+                                    <div chips id="palavrasChave" type="text" ng-model="acao.palavrasChave" data-role="materialtags"></div>
+                                    <label for="palavrasChave" class="active">Palavras Chave *</label>
+                                </div>
+                                <div class="input-field col s6">
+                                    <div chips id="atividades" type="text" ng-model="acao.atividades" data-role="materialtags"></div>
+                                    <label for="atividades" class="active">Atividades *</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s6">
+                                    <div chips id="publicoAlvo" type="text" ng-model="acao.publicoAlvo" data-role="materialtags"></div>
+                                    <label for="publicoAlvo" class="active">Público alvo *</label>
+                                </div>
+                                <div class="input-field col s6">
+                                    <input placeholder="Local" id="local" type="text" ng-model="acao.local">
+                                    <label for="local" class="active">Local *</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div class="col s3">
+                <ul class="collection with-header">
+
+                    <li class="collection-item">
+                        <button ng-click="" type="submit" class="btn btn-primary btn-lg pull-right">Criar Projeto 
+                            <span class = "fa fa-floppy-o fa-right" > </span> 
+                        </button>
+                    </li>
+
+                    <li class="collection-item">
+                        <button ng-click="" type="submit" class="btn btn-primary btn-lg pull-right">Enviar avaliação 
+                            <span class = "fa fa-floppy-o fa-right" > </span> 
+                        </button>
+                    </li>
+                </ul>
+            </div>
+
+        </form>
+    </div>
+</div>
+<script type="text/javascript" src="/app/js/siex.js"></script>

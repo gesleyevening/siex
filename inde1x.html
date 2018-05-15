@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8" />
+    <!-- Compiled and minified CSS -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="/app/css/style.css">
+    <link rel="stylesheet" href="/app/css/materialize-angular.css">
+
+</head>
+
+<body ng-app="myApp">
+
+
+    <div class="navbar-fixed" ng-controller="UsuarioController">
+        <nav class="blue-grey  darken-4">
+            <div class="nav-wrapper">
+                <a id="button-menu" class=" waves-effect waves-light " data-activates="slide-out">
+                    <i class="material-icons">menu</i>
+                </a>
+                <label class="brand-logo truncate">Siex Newton</label>
+                <ul class="right hide-on-med-and-down">
+                    <li ng-show="user.id!='undefined'"><a ng-click="sair()"><i class="material-icons">power_settings_new</i></a></li>
+                    <li ng-show="user.id=='undefined'"><a href="#login"><i class="material-icons">power_settings_new</i></a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+
+    <main>
+        <ul id="slide-out" class="side-nav" ng-controller="UsuarioController">
+            <li>
+                <div class="user-view">
+                    <a href="#user"><img src="/app/img/logo-newton.png"></a>
+                    <a href="#name"><span class="name">Nome completo</span></a>
+                    <a href="#email"><span class="email">Seu e-mail</span></a>
+                </div>
+            </li>
+            <li>
+                <div class="divider"></div>
+            </li>
+            <li><a class="subheader">SIEX NEWTON</a></li>
+            <li><a class="waves-effect" href="#ajuda">Ajuda</a></li>
+            <li>
+                <div class="divider"></div>
+            </li>
+            <li><a class="subheader">AÇÕES DE EXTENSÃO</a></li>
+            <li><a class="waves-effect" ng-href="#usuario">Cadastrar e Pesquisar Usuário</a></li>
+            <li><a class="waves-effect" href="#pesquisar_acao">Pesquisar Ação</a></li>
+            <li><a class="waves-effect" ng-href="#cadastrar_acao">Registrar ou Atualizar Ação</a></li>
+            <li><a class="waves-effect" ng-href="#cadastrar_acao">Submissão - Programa de Extensão</a></li>
+            <li>
+                <div class="divider"></div>
+            </li>
+            <li><a class="subheader">OUTRAS OPÇÕES</a></li>
+            <li><a class="waves-effect" href="#contato"><i class="material-icons left">sentiment_very_satisfied</i>Fundadores do sistema</a></li>
+            <li ng-show="user.id!='undefined'"><a class="waves-effect" ng-click="sair()"><i class="material-icons">power_settings_new</i>Sair do sistema</a></li>
+            <li ng-show="user.id=='undefined'"><a class="waves-effect" href="#login"><i class="material-icons">power_settings_new</i>Login</a></li>
+
+        </ul>
+
+        <div ng-view></div>
+    </main>
+    <footer class="page-footer blue-grey  darken-4">
+        <div class="container">
+            © 2017 Direitos Autoriais: Caio, Eiderson, Gesley, Marcus
+            <a class="grey-text text-lighten-4 right" href="#">Outros Links</a>
+        </div>
+    </footer>
+    <!-- Compiled and minified JavaScript -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+
+    <!-- Angular -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-route.min.js"></script>
+    <script type="text/javascript" src="/app/js/siex.js"></script>
+    <script type="text/javascript" src="/app/js/angular-materialize.js"></script>
+
+    <script src="app/Services/UtilService.js"></script>
+    <script src="app/Services/AcaoService.js"></script>
+    <script src="app/Services/ConceitoExtensaoService.js"></script>
+    <script src="app/Services/CursoService.js"></script>
+    <script src="app/Services/SituacaoService.js"></script>
+    <script src="app/Services/TipoAcaoService.js"></script>
+    <script src="app/Services/UsuarioService.js"></script>
+
+    <script src="app/controllers/AcaoController.js"></script>
+    <script src="app/controllers/CadastroAcaoController.js"></script>
+    <script src="app/controllers/IndexController.js"></script>
+    <script src="app/controllers/PesquisarController.js"></script>
+    <script src="app/controllers/UsuarioController.js"></script>
+    <script src="app/controllers/AjudaController.js"></script>
+    <script src="app/controllers/ContatoController.js"></script>
+    <script src="app/controllers/ProjetosController.js"></script>
+
+    <script src="app/routes.js"></script>
+    <script src="app/config.js"></script>
+</body>
+
+</html>

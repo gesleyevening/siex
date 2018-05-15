@@ -1,0 +1,46 @@
+<!-- START BREADCRUMB -->
+<div>
+    <div class="nav-content">
+        <ul class="tabs  blue-grey lighten-5">
+            <li class="tab"><a href="#/">Home</a></li>
+            <li class="tab"><a class="active" href="#/login">Login</a></li>
+        </ul>
+    </div>
+    <!-- END BREADCRUMB -->
+    <div class="container">
+        <!-- PAGE CONTENT WRAPPER -->
+        <div class="page-content-wrap login">
+            <div class="login-container" style="background:nome;">
+                <div class="login-box animated fadeInDown">
+                    <div class="login-body">
+                        <div class="login-title"><strong>Bem vindo</strong>, Por favor entre </div>
+                        <form class="form-horizontal" ng-submit="logar()">
+                            <div id="msg">{{msg}}</div>
+                            <div class="form-group">
+                                <div class="col-md-12">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><span class="fa fa fa-user"></span></span>
+                                        <input type="text" class="form-control" placeholder="Login" ng-model="login.username" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-xs-12">
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><span class="fa fa-unlock-alt"></span></span>
+                                        <input type="password" class="form-control" placeholder="Senha" ng-model="login.password" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-md-8"><br>
+                                    <button type="submit" class="btn btn-info btn-block"><i class="glyphicon glyphicon-log-in"></i>Log In</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,202 @@
+<!-- START BREADCRUMB -->
+<div class="nav-content">
+    <ul class="tabs  blue-grey lighten-5">
+        <li class="tab"><a href="#/">Home</a></li>
+        <li class="tab"><a class="active" ng-href="#">{{acao.tipo_acao.descricao}}</a></li>
+    </ul>
+</div>
+<!-- END BREADCRUMB -->
+<!-- PAGE TITLE -->
+<div class="page-title">
+    <h2><span class="fa fa-arrow-circle-o"></span>{{acao.tipo_acao.descricao}}</h2>
+</div>
+<!-- END PAGE TITLE -->
+<div class="row" ng-init="init()">
+    <div class="container container-90">
+        <form class="col s12">
+            <div class="row">
+                <div class="col s12">
+                    <ul id="tabs-swipe-demo" class="tabs">
+                        <li class="tab col "><a ng-class="{ active: isSet(1) }" href ng-click="setTab(1)">{{acao.tipo_acao.descricao}}</a></li>
+                        <li class="tab col "><a ng-class="{ active: isSet(2) }" href ng-click="setTab(2)">Equipe</a></li>
+                        <li class="tab col "><a ng-class="{ active: isSet(3) }" href ng-click="setTab(3)">Parceria</a></li>
+                        <li class="tab col "><a ng-class="{ active: isSet(4) }" href ng-click="setTab(4)">Resultados</a></li>
+                        <li class="tab col "><a ng-class="{ active: isSet(5) }" href ng-click="setTab(5)">Histórico</a></li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="col s9 m9 l9">
+                <nav class="white myform">
+                    <div class=" container container-90">
+                        <div id="novoProjeto" ng-show="isSet(1)">
+                            <div class="row">
+                                <div class="col s12">
+                                    <h5> {{acao.tipo_acao.descricao}}: {{acao.titulo}}</h5>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class=" col s6">
+                                    Curso Responsave: {{acao.curso.nome}}
+                                </div>
+                                <div class="col s6">
+                                    Professor: {{acao.professor.nome}}
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class=" col s4">
+                                    Inicio: {{acao.dt_inicio}}
+                                </div>
+                                <div class=" col s4">
+                                    Término: {{acao.dt_termino}}
+                                </div>
+                                <div class=" col s4">
+                                    Registro: {{acao.dt_registro}}
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <h5>Área temática intregadora</h5>
+                                </div>
+                                <div class="row">
+                                    <div class="col s4" ng-repeat="x in acao.area_tematica">
+                                        {{x.nome}}
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col s12">
+                                    <h5>Objetivos de Desenvolvimento Sustentável da ONU</h5>
+                                </div>
+                                <div class="row">
+                                    <div class="col s4" ng-repeat="x in acao.objetivo_onu">
+                                        {{x.nome}}
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col s12">
+                                    <h5>Desafios do Planejamento Estratégico de BH 2030</h5>
+                                </div>
+                                <br/>
+                                <div class="row">
+                                    <div class="col s6" ng-repeat="x in acao.desafio" style="line-height: 20px;">
+                                        {{x.nome}}
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col s12">
+                                    <h5>Cursos Envolvido</h5>
+                                </div>
+                                <div class="row">
+                                    <div class="col s3" ng-repeat="x in acao.curso_envolvido">
+                                        {{x.nome}}
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <h5>Descrição</h5>
+                                </div>
+                                <div class="row">
+                                    <div class="col s12">
+                                        {{acao.descricao}}
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <h5>Objetivo</h5>
+                                </div>
+                                <div class="row">
+                                    <div class="col s12">
+                                        {{acao.objetivo}}
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class=" col s12">
+                                    <div class=" col s12">
+                                        <h5>Palavras Chave:</h5>
+                                    </div>
+                                    <div class=" col s3" ng-repeat="x in acao.ownPalavrachave">
+                                        {{x.palavra}}
+                                    </div>
+                                </div>
+                                <div class=" col s12">
+                                    <div class=" col s12">
+                                        <h5> Atividades:</h5>
+                                    </div>
+                                    <div class=" col s3" ng-repeat="x in acao.ownAtividade">
+                                        {{x.nome}}
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class=" col s12">
+                                    <div class=" col s12">
+                                        <h5> Público alvo:</h5>
+                                    </div>
+                                    <div class=" col s12">
+                                        {{acao.publico_alvo}}
+                                    </div>
+                                </div>
+                                <div class=" col s12">
+                                    <div class=" col s12">
+                                        <h5> Local:</h5>
+                                    </div>
+                                    <div class=" col s12">
+                                        {{acao.local}}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div ng-show="isSet(2)">Equipe do Projeto</div>
+                    </div>
+                </nav>
+            </div>
+            <div class="col s3">
+                <nav class="white myform">
+                    <div class=" container container-90">
+                        <ul class="collection with-header">
+
+                            <li class="collection-item">
+                                Status: {{acao.situacao.descricao}}
+                            </li>
+
+                            <li ng-show="user.tipo.id==3 &&  acao.situacao.id==4" class="collection-item">
+                                <a ng-click="aprovar()" class="btn btn-primary btn-lg pull-right">Aprovar
+                            <span class = "fa fa-floppy-o fa-right" > </span> 
+                                </a>
+                            </li>
+
+                            <li ng-show="(user.tipo.id==2 || user.tipo.id==3) && (acao.situacao.id==3 || acao.situacao.id==4)" class="collection-item">
+                                <a ng-click="reprovar()"  class="btn btn-primary btn-lg pull-right">Reprovar
+                            <span class = "fa fa-floppy-o fa-right" > </span> 
+                                </a>
+                            </li>
+
+                            <li ng-show="user.tipo.id==2 && acao.situacao.id==3" class="collection-item">
+                                <a ng-click="enviarEx()"  class="btn btn-primary btn-lg pull-right">Enviar Ex
+                            <span class = "fa fa-floppy-o fa-right" > </span> 
+                                </a>
+                            </li>
+                            
+                            <li ng-show="user.tipo.id==1" class="collection-item">
+                                <a ng-href="#editar_acao/{{acao.id}}" type="submit" class="btn btn-primary btn-lg pull-right">Editar
+                            <span class = "fa fa-floppy-o fa-right" > </span> 
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </form>
+    </div>
+</div>
+<script type="text/javascript" src="/app/js/siex.js"></script>

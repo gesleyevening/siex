@@ -1,0 +1,13 @@
+code.language-markup {
+    overflow: auto !important;
+
+}
+
+pre[class*=language-]>code[data-language] {
+    max-height: 16em !important;
+}
+
+.side-nav a {
+    height: 44px !important;
+    line-height: 44px !important;
+}

@@ -1,0 +1,110 @@
+<!-- START BREADCRUMB -->
+<div class="nav-content">
+    <ul class="tabs  blue-grey lighten-5">
+        <li class="tab"><a href="#/">Home</a></li>
+        <li class="tab"><a class="active" ng-href="#pesquisar_acao">Pesquisar</a></li>
+    </ul>
+</div>
+<!-- END BREADCRUMB -->
+<!-- PAGE TITLE -->
+
+<div class=" container container-90">
+    <div class="page-title">
+        <h2><span class="fa fa-arrow-circle-o"></span>Pesquisar</h2>
+    </div>
+    <div class="row">
+        <div class="col s12 m12 l12">
+            <nav class="white myform black-text">
+                <div class=" container container-90">
+
+                    <form class="col s12">
+                        <div class="row custom">
+                            <div class="input-field col s6">
+                                <input id="input-inicio" type="text">
+                                <label for="input-inicio">Início:</label>
+                            </div>
+                            <div class="input-field col s6">
+                                <input id="input-termino" type="text">
+                                <label for="input-termino">Término:</label>
+                            </div>
+                        </div>
+                        <div class="row custom">
+                            <div class="input-field col s6">
+                                <select material-select watch id="tiposAcaos" class="form-control" ng-model="pesquisa.tipo_acao">
+                                    <option class="small-font" ng-repeat="c in tiposAcaos" value="{{c.id}}">{{c.descricao}}</option>
+                                </select>
+                                <label for="tiposAcaos" class="active">Tipo:</label>
+                            </div>
+                            <div class="input-field col s6">
+                                <select material-select watch id="curso" class="form-control" ng-model="pesquisa.curso">
+                                    <option class="small-font" ng-repeat="c in cursos" value="{{c.id}}">{{c.nome}}</option>
+                                </select>
+                                <label for="curso" class="active">Curso Responsavel *</label>
+                            </div>
+                        </div>
+                        <div class="row custom">
+                            <div class="input-field col s6">
+                                <input id="input-titulo" type="text">
+                                <label for="input-titulo">Título / Palavra-chave:</label>
+                            </div>
+                            <div class="input-field col s6">
+                                <input id="input-membro" type="text">
+                                <label for="input-membro">Membro da equipe:</label>
+                            </div>
+                        </div>
+                        <div class="row custom">
+                            <div class="input-field col s6">
+                                <input id="input-area" type="text">
+                                <label for="input-area">Área temática integradora:</label>
+                            </div>
+                            <div class="input-field col s6">
+                                <input id="input-onu" type="text">
+                                <label for="input-onu">Oos. Onu:</label>
+                            </div>
+                        </div>
+                        <div class="row custom">
+                            <div class="input-field col s6">
+                                <input id="input-bh2030" type="text">
+                                <label for="input-bh2030">BH 2030:</label>
+                            </div>
+                        </div>
+                        <div id="div-botoes" class="row custom">
+                            <button class="btn waves-effect waves-light" type="reset">
+                Limpar<i class="material-icons right">clear_all</i>
+            </button>
+                            <button class="btn waves-effect waves-light" ng-click="pesquisar()">
+                Pesquisar<i class="material-icons right">search</i>
+            </button>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="row">
+                    <table class="bordered striped responsive-table">
+                        <thead>
+                            <tr>
+                                <th>Tipo</th>
+                                <th>Titulo</th>
+                                <th>Curso</th>
+                                <!--<th>Coordenador</th>-->
+                                <th>Status</th>
+                                <th>Imprimir</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr ng-repeat="a in acao">
+                                <td>{{a.tipo_acao.descricao}} </td>
+                                <td>{{a.titulo}}</td>
+                                <td>{{a.curso.nome}}</td>
+                                <!--<td>{{a.coordenador.nome}}</td>-->
+                                <td>{{a.situacao.descricao}}</td>
+                                <td><button><i class="material-icons">file_download</i></button></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </nav>
+        </div>
+    </div>
+</div>

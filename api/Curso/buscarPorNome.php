@@ -1,0 +1,18 @@
+<?php
+    try {
+        $ignorarSeguranca = true;
+        require_once '../Utils/Init.php';
+        
+        if(empty($_GET['nome'])) {
+            respostaJsonErro('Parametro GET nome não informado.');
+        }
+        
+        $nome = $_GET['nome'];
+        
+        $dados = R::find('curso', 'ativo = ? AND nome LIKE ?', [1, "%$nome%"], ' ORDER BY nome ASC ');
+        
+        respostaJson($dados);
+    } catch(Exception $e) {
+        respostaJsonErro($e->getMessage());
+    }
+?>

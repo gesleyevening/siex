@@ -1,0 +1,85 @@
+<!-- START BREADCRUMB -->
+<div class="nav-content">
+    <ul class="tabs  blue-grey lighten-5">
+        <li class="tab"><a href="#/">Home</a></li>
+        <li class="tab"><a class="active" ng-href="#usuario">Usuário</a></li>
+    </ul>
+</div>
+<!-- END BREADCRUMB -->
+<!-- PAGE TITLE -->
+<div class=" container container-90" ng-init="initUsuario()">
+    <div class="page-title">
+        <h2><span class="fa fa-arrow-circle-o"></span>Cadastro de Usuário / Pesquisar Usuários</h2>
+    </div>
+    <div class="row">
+        <div class="col s12 m12 l12">
+            <div class="white myform black-text">
+                <div class="container container-90">
+                    <form class="col s12">
+                        <div class="row">
+                            <div class="input-field col s6">
+                                <input id="first_name" type="text" class="validate" ng-model="usuario.nome">
+                                <label for="first_name">Nome:</label>
+                            </div>
+
+                            <div class="input-field col s6">
+                                <input id="email" type="email" class="validate" ng-model="usuario.email">
+                                <label for="email">Email:</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s6">
+                                <input id="password" type="password" class="validate" ng-model="usuario.senha">
+                                <label for="password">Senha:</label>
+                            </div>
+
+                            <div class="input-field col s6">
+                                <select material-select watch id="listaTipo" class="form-control" ng-model="usuario.tipo">
+                        <option class="small-font" ng-repeat="c in listaTipo" value="{{c.id}}">{{c.descricao}}</option>
+                    </select>
+                                <label for="listaTipo" class="active">Tipo Usuário:</label>
+                            </div>
+                        </div>
+
+                        <div id="div-botoes" class="row custom">
+                            <button class="btn waves-effect waves-light" type="reset">
+                    Limpar<i class="material-icons right">clear_all</i>
+                </button>
+                            <button class="btn waves-effect waves-light" type="submit" ng-click="cadastrar()">
+                    Salvar<i class="material-icons right">save</i>
+                </button>
+                            <button class="btn waves-effect waves-light" type="submit" ng-click="pesquisar()">
+                                Pesquisar Usuários<i class="material-icons right">search</i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                <div class="row">
+                    <div class=" container container-90">
+                        <table class="bordered striped responsive-table">
+                            <thead>
+                                <tr>
+                                    <th>Tipo Usuário</th>
+                                    <th>Nome</th>
+                                    <th>Email</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr ng-repeat="x in usuarios">
+                                    <td>{{x.tipo.descricao}}</td>
+                                    <td>{{x.nome}}</td>
+                                    <td>{{x.email}}</td>
+                                    <td>
+                                        <button class="btn waves-effect waves-light" ng-click="verUsuario(x.tipo.descricao, x.nome, x.email)">
+                                            <i class="material-icons ">zoom_in</i>
+                                        </button>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

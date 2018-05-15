@@ -1,0 +1,27 @@
+<!-- START BREADCRUMB -->
+<div class="nav-content">
+    <ul class="tabs  blue-grey lighten-5">
+        <li class="tab"><a href="#/">Home</a></li>
+        <li class="tab"><a class="active" ng-href="#ajuda">Ajuda</a></li>
+    </ul>
+</div>
+<!-- END BREADCRUMB -->
+<!-- PAGE TITLE -->
+
+<div class="container">
+    <div class="row">
+    <div class="page-title">
+        <h2><span class="fa fa-arrow-circle-o"></span>Ajuda</h2>
+    </div>
+</div>
+<div class="row">
+    <ul class="collapsible popout" data-collapsible="accordion" watch>
+        <li ng-repeat="single in collapsibleElements">
+            <div class="collapsible-header active"><i class="{{single.icon}}"></i>{{single.title}}</div>
+            <div class="collapsible-body">
+                <p>{{single.content}}</p>
+            </div>
+        </li>
+    </ul>
+</div>
+</div>

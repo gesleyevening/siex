@@ -1,0 +1,695 @@
+[18-May-2017 11:20:06 UTC] PHP Fatal error:  Call to undefined function logInfo() in /home/ubuntu/workspace/api/Acao/salvar.php on line 36
+[18-May-2017 11:20:06 UTC] PHP Stack trace:
+[18-May-2017 11:20:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[18-May-2017 11:20:08 UTC] PHP Fatal error:  Call to undefined function logInfo() in /home/ubuntu/workspace/api/Acao/salvar.php on line 36
+[18-May-2017 11:20:08 UTC] PHP Stack trace:
+[18-May-2017 11:20:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[18-May-2017 11:21:03 UTC] PHP Fatal error:  Call to undefined function logInfo() in /home/ubuntu/workspace/api/Acao/salvar.php on line 36
+[18-May-2017 11:21:03 UTC] PHP Stack trace:
+[18-May-2017 11:21:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[18-May-2017 15:34:32 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/api/Acao/salvar.php on line 71
+[18-May-2017 15:34:32 UTC] PHP Stack trace:
+[18-May-2017 15:34:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[18-May-2017 15:34:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/api/Acao/salvar.php on line 71
+[18-May-2017 15:34:56 UTC] PHP Stack trace:
+[18-May-2017 15:34:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[18-May-2017 15:35:28 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/api/Acao/salvar.php on line 71
+[18-May-2017 15:35:28 UTC] PHP Stack trace:
+[18-May-2017 15:35:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[18-May-2017 15:35:34 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/api/Acao/salvar.php on line 71
+[18-May-2017 15:35:34 UTC] PHP Stack trace:
+[18-May-2017 15:35:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[18-May-2017 15:37:57 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/api/Acao/salvar.php on line 83
+[18-May-2017 15:37:57 UTC] PHP Stack trace:
+[18-May-2017 15:37:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[18-May-2017 15:40:47 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/api/Acao/salvar.php on line 71
+[18-May-2017 15:40:47 UTC] PHP Stack trace:
+[18-May-2017 15:40:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[18-May-2017 22:21:25 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/api/Acao/salvar.php on line 71
+[18-May-2017 22:21:25 UTC] PHP Stack trace:
+[18-May-2017 22:21:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[18-May-2017 22:21:25 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/api/Acao/salvar.php on line 77
+[18-May-2017 22:21:25 UTC] PHP Stack trace:
+[18-May-2017 22:21:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[18-May-2017 22:21:25 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/api/Acao/salvar.php on line 83
+[18-May-2017 22:21:25 UTC] PHP Stack trace:
+[18-May-2017 22:21:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[18-May-2017 22:23:00 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/api/Acao/salvar.php on line 71
+[18-May-2017 22:23:00 UTC] PHP Stack trace:
+[18-May-2017 22:23:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[18-May-2017 22:23:00 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/api/Acao/salvar.php on line 77
+[18-May-2017 22:23:00 UTC] PHP Stack trace:
+[18-May-2017 22:23:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[18-May-2017 22:23:00 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/api/Acao/salvar.php on line 83
+[18-May-2017 22:23:00 UTC] PHP Stack trace:
+[18-May-2017 22:23:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[25-May-2017 14:50:56 UTC] PHP Fatal error:  Call to a member function getMessage() on a non-object in /home/ubuntu/workspace/api/Acao/buscarTodos.php on line 12
+[25-May-2017 14:50:56 UTC] PHP Stack trace:
+[25-May-2017 14:50:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/buscarTodos.php:0
+[25-May-2017 15:01:03 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/api/Acao/buscarTodos.php on line 16
+[27-May-2017 00:57:17 UTC] PHP Fatal error:  Cannot unset string offsets in /home/ubuntu/workspace/api/Acao/buscarPorId.php on line 11
+[27-May-2017 00:57:17 UTC] PHP Stack trace:
+[27-May-2017 00:57:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/buscarPorId.php:0
+[27-May-2017 00:58:57 UTC] PHP Fatal error:  Cannot unset string offsets in /home/ubuntu/workspace/api/Acao/buscarPorId.php on line 11
+[27-May-2017 00:58:57 UTC] PHP Stack trace:
+[27-May-2017 00:58:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/buscarPorId.php:0
+[27-May-2017 00:59:46 UTC] PHP Fatal error:  Cannot unset string offsets in /home/ubuntu/workspace/api/Acao/buscarPorId.php on line 11
+[27-May-2017 00:59:46 UTC] PHP Stack trace:
+[27-May-2017 00:59:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/buscarPorId.php:0
+[27-May-2017 01:00:14 UTC] PHP Fatal error:  Cannot unset string offsets in /home/ubuntu/workspace/api/Acao/buscarPorId.php on line 11
+[27-May-2017 01:00:14 UTC] PHP Stack trace:
+[27-May-2017 01:00:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/buscarPorId.php:0
+[27-May-2017 01:01:27 UTC] PHP Fatal error:  Cannot unset string offsets in /home/ubuntu/workspace/api/Acao/buscarPorId.php on line 11
+[27-May-2017 01:01:27 UTC] PHP Stack trace:
+[27-May-2017 01:01:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/buscarPorId.php:0
+[27-May-2017 01:02:20 UTC] PHP Warning:  Illegal string offset 'curso' in /home/ubuntu/workspace/api/Acao/buscarPorId.php on line 12
+[27-May-2017 01:02:20 UTC] PHP Stack trace:
+[27-May-2017 01:02:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/buscarPorId.php:0
+[27-May-2017 01:02:20 UTC] PHP Fatal error:  Cannot unset string offsets in /home/ubuntu/workspace/api/Acao/buscarPorId.php on line 15
+[27-May-2017 01:02:20 UTC] PHP Stack trace:
+[27-May-2017 01:02:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/buscarPorId.php:0
+[27-May-2017 01:03:02 UTC] PHP Fatal error:  Cannot unset string offsets in /home/ubuntu/workspace/api/Acao/buscarPorId.php on line 11
+[27-May-2017 01:03:02 UTC] PHP Stack trace:
+[27-May-2017 01:03:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/buscarPorId.php:0
+[27-May-2017 01:04:16 UTC] PHP Fatal error:  Cannot unset string offsets in /home/ubuntu/workspace/api/Acao/buscarPorId.php on line 11
+[27-May-2017 01:04:16 UTC] PHP Stack trace:
+[27-May-2017 01:04:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/buscarPorId.php:0
+[27-May-2017 01:04:28 UTC] PHP Fatal error:  Cannot unset string offsets in /home/ubuntu/workspace/api/Acao/buscarPorId.php on line 15
+[27-May-2017 01:04:28 UTC] PHP Stack trace:
+[27-May-2017 01:04:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/buscarPorId.php:0
+[27-May-2017 01:05:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/api/Acao/buscarPorId.php on line 8
+[27-May-2017 01:05:24 UTC] PHP Stack trace:
+[27-May-2017 01:05:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/buscarPorId.php:0
+[27-May-2017 01:05:24 UTC] PHP Catchable fatal error:  Argument 1 passed to RedBeanPHP\DuplicationManager::dup() must be an instance of RedBeanPHP\OODBBean, null given, called in /home/ubuntu/workspace/api/Utils/rb.php on line 12546 and defined in /home/ubuntu/workspace/api/Utils/rb.php on line 12480
+[27-May-2017 01:05:24 UTC] PHP Stack trace:
+[27-May-2017 01:05:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/buscarPorId.php:0
+[27-May-2017 01:05:24 UTC] PHP   2. respostaJson() /home/ubuntu/workspace/api/Acao/buscarPorId.php:28
+[27-May-2017 01:05:24 UTC] PHP   3. RedBeanPHP\Facade::exportAll() /home/ubuntu/workspace/api/Utils/JsonUtils.php:12
+[27-May-2017 01:05:24 UTC] PHP   4. RedBeanPHP\DuplicationManager->exportAll() /home/ubuntu/workspace/api/Utils/rb.php:11137
+[27-May-2017 01:05:24 UTC] PHP   5. RedBeanPHP\DuplicationManager->dup() /home/ubuntu/workspace/api/Utils/rb.php:12546
+[27-May-2017 01:06:05 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/api/Acao/buscarPorId.php on line 8
+[27-May-2017 01:06:05 UTC] PHP Stack trace:
+[27-May-2017 01:06:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/buscarPorId.php:0
+[27-May-2017 01:06:05 UTC] PHP Catchable fatal error:  Argument 1 passed to RedBeanPHP\DuplicationManager::dup() must be an instance of RedBeanPHP\OODBBean, null given, called in /home/ubuntu/workspace/api/Utils/rb.php on line 12546 and defined in /home/ubuntu/workspace/api/Utils/rb.php on line 12480
+[27-May-2017 01:06:05 UTC] PHP Stack trace:
+[27-May-2017 01:06:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/buscarPorId.php:0
+[27-May-2017 01:06:05 UTC] PHP   2. respostaJson() /home/ubuntu/workspace/api/Acao/buscarPorId.php:28
+[27-May-2017 01:06:05 UTC] PHP   3. RedBeanPHP\Facade::exportAll() /home/ubuntu/workspace/api/Utils/JsonUtils.php:12
+[27-May-2017 01:06:05 UTC] PHP   4. RedBeanPHP\DuplicationManager->exportAll() /home/ubuntu/workspace/api/Utils/rb.php:11137
+[27-May-2017 01:06:05 UTC] PHP   5. RedBeanPHP\DuplicationManager->dup() /home/ubuntu/workspace/api/Utils/rb.php:12546
+[27-May-2017 01:13:13 UTC] PHP Catchable fatal error:  Argument 1 passed to RedBeanPHP\DuplicationManager::dup() must be an instance of RedBeanPHP\OODBBean, null given, called in /home/ubuntu/workspace/api/Utils/rb.php on line 12546 and defined in /home/ubuntu/workspace/api/Utils/rb.php on line 12480
+[27-May-2017 01:13:13 UTC] PHP Stack trace:
+[27-May-2017 01:13:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/buscarPorId.php:0
+[27-May-2017 01:13:13 UTC] PHP   2. respostaJson() /home/ubuntu/workspace/api/Acao/buscarPorId.php:25
+[27-May-2017 01:13:13 UTC] PHP   3. RedBeanPHP\Facade::exportAll() /home/ubuntu/workspace/api/Utils/JsonUtils.php:12
+[27-May-2017 01:13:13 UTC] PHP   4. RedBeanPHP\DuplicationManager->exportAll() /home/ubuntu/workspace/api/Utils/rb.php:11137
+[27-May-2017 01:13:13 UTC] PHP   5. RedBeanPHP\DuplicationManager->dup() /home/ubuntu/workspace/api/Utils/rb.php:12546
+[30-May-2017 14:36:56 UTC] PHP Catchable fatal error:  Object of class DateTime could not be converted to string in /home/ubuntu/workspace/api/Utils/rb.php on line 4438
+[30-May-2017 14:36:56 UTC] PHP Stack trace:
+[30-May-2017 14:36:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/pesquisar.php:0
+[30-May-2017 14:36:56 UTC] PHP   2. RedBeanPHP\Facade::find() /home/ubuntu/workspace/api/Acao/pesquisar.php:23
+[30-May-2017 14:36:56 UTC] PHP   3. RedBeanPHP\Finder->find() /home/ubuntu/workspace/api/Utils/rb.php:10804
+[30-May-2017 14:36:56 UTC] PHP   4. RedBeanPHP\OODB->find() /home/ubuntu/workspace/api/Utils/rb.php:8665
+[30-May-2017 14:36:56 UTC] PHP   5. RedBeanPHP\Repository->find() /home/ubuntu/workspace/api/Utils/rb.php:8255
+[30-May-2017 14:36:56 UTC] PHP   6. RedBeanPHP\QueryWriter\AQueryWriter->queryRecord() /home/ubuntu/workspace/api/Utils/rb.php:7172
+[30-May-2017 14:36:56 UTC] PHP   7. RedBeanPHP\Adapter\DBAdapter->get() /home/ubuntu/workspace/api/Utils/rb.php:5177
+[30-May-2017 14:36:56 UTC] PHP   8. RedBeanPHP\Driver\RPDO->GetAll() /home/ubuntu/workspace/api/Utils/rb.php:3466
+[30-May-2017 14:36:56 UTC] PHP   9. RedBeanPHP\Driver\RPDO->runQuery() /home/ubuntu/workspace/api/Utils/rb.php:882
+[30-May-2017 14:36:56 UTC] PHP  10. RedBeanPHP\Driver\RPDO->bindParams() /home/ubuntu/workspace/api/Utils/rb.php:698
+[30-May-2017 14:36:56 UTC] PHP  11. RedBeanPHP\QueryWriter\AQueryWriter::canBeTreatedAsInt() /home/ubuntu/workspace/api/Utils/rb.php:651
+[30-May-2017 14:36:56 UTC] PHP  12. strval() /home/ubuntu/workspace/api/Utils/rb.php:4438
+[30-May-2017 14:37:19 UTC] PHP Catchable fatal error:  Object of class DateTime could not be converted to string in /home/ubuntu/workspace/api/Utils/rb.php on line 4438
+[30-May-2017 14:37:19 UTC] PHP Stack trace:
+[30-May-2017 14:37:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/pesquisar.php:0
+[30-May-2017 14:37:19 UTC] PHP   2. RedBeanPHP\Facade::find() /home/ubuntu/workspace/api/Acao/pesquisar.php:23
+[30-May-2017 14:37:19 UTC] PHP   3. RedBeanPHP\Finder->find() /home/ubuntu/workspace/api/Utils/rb.php:10804
+[30-May-2017 14:37:19 UTC] PHP   4. RedBeanPHP\OODB->find() /home/ubuntu/workspace/api/Utils/rb.php:8665
+[30-May-2017 14:37:19 UTC] PHP   5. RedBeanPHP\Repository->find() /home/ubuntu/workspace/api/Utils/rb.php:8255
+[30-May-2017 14:37:19 UTC] PHP   6. RedBeanPHP\QueryWriter\AQueryWriter->queryRecord() /home/ubuntu/workspace/api/Utils/rb.php:7172
+[30-May-2017 14:37:19 UTC] PHP   7. RedBeanPHP\Adapter\DBAdapter->get() /home/ubuntu/workspace/api/Utils/rb.php:5177
+[30-May-2017 14:37:19 UTC] PHP   8. RedBeanPHP\Driver\RPDO->GetAll() /home/ubuntu/workspace/api/Utils/rb.php:3466
+[30-May-2017 14:37:19 UTC] PHP   9. RedBeanPHP\Driver\RPDO->runQuery() /home/ubuntu/workspace/api/Utils/rb.php:882
+[30-May-2017 14:37:19 UTC] PHP  10. RedBeanPHP\Driver\RPDO->bindParams() /home/ubuntu/workspace/api/Utils/rb.php:698
+[30-May-2017 14:37:19 UTC] PHP  11. RedBeanPHP\QueryWriter\AQueryWriter::canBeTreatedAsInt() /home/ubuntu/workspace/api/Utils/rb.php:651
+[30-May-2017 14:37:19 UTC] PHP  12. strval() /home/ubuntu/workspace/api/Utils/rb.php:4438
+[30-May-2017 14:39:42 UTC] PHP Catchable fatal error:  Object of class DateTime could not be converted to string in /home/ubuntu/workspace/api/Utils/rb.php on line 4438
+[30-May-2017 14:39:42 UTC] PHP Stack trace:
+[30-May-2017 14:39:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/pesquisar.php:0
+[30-May-2017 14:39:42 UTC] PHP   2. RedBeanPHP\Facade::find() /home/ubuntu/workspace/api/Acao/pesquisar.php:23
+[30-May-2017 14:39:42 UTC] PHP   3. RedBeanPHP\Finder->find() /home/ubuntu/workspace/api/Utils/rb.php:10804
+[30-May-2017 14:39:42 UTC] PHP   4. RedBeanPHP\OODB->find() /home/ubuntu/workspace/api/Utils/rb.php:8665
+[30-May-2017 14:39:42 UTC] PHP   5. RedBeanPHP\Repository->find() /home/ubuntu/workspace/api/Utils/rb.php:8255
+[30-May-2017 14:39:42 UTC] PHP   6. RedBeanPHP\QueryWriter\AQueryWriter->queryRecord() /home/ubuntu/workspace/api/Utils/rb.php:7172
+[30-May-2017 14:39:42 UTC] PHP   7. RedBeanPHP\Adapter\DBAdapter->get() /home/ubuntu/workspace/api/Utils/rb.php:5177
+[30-May-2017 14:39:42 UTC] PHP   8. RedBeanPHP\Driver\RPDO->GetAll() /home/ubuntu/workspace/api/Utils/rb.php:3466
+[30-May-2017 14:39:42 UTC] PHP   9. RedBeanPHP\Driver\RPDO->runQuery() /home/ubuntu/workspace/api/Utils/rb.php:882
+[30-May-2017 14:39:42 UTC] PHP  10. RedBeanPHP\Driver\RPDO->bindParams() /home/ubuntu/workspace/api/Utils/rb.php:698
+[30-May-2017 14:39:42 UTC] PHP  11. RedBeanPHP\QueryWriter\AQueryWriter::canBeTreatedAsInt() /home/ubuntu/workspace/api/Utils/rb.php:651
+[30-May-2017 14:39:42 UTC] PHP  12. strval() /home/ubuntu/workspace/api/Utils/rb.php:4438
+[02-Jun-2017 11:48:14 UTC] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, string given in /home/ubuntu/workspace/api/Acao/salvar.php on line 46
+[02-Jun-2017 11:48:14 UTC] PHP Stack trace:
+[02-Jun-2017 11:48:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[02-Jun-2017 11:48:14 UTC] PHP   2. date_format() /home/ubuntu/workspace/api/Acao/salvar.php:46
+[02-Jun-2017 11:48:14 UTC] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, string given in /home/ubuntu/workspace/api/Acao/salvar.php on line 47
+[02-Jun-2017 11:48:14 UTC] PHP Stack trace:
+[02-Jun-2017 11:48:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[02-Jun-2017 11:48:14 UTC] PHP   2. date_format() /home/ubuntu/workspace/api/Acao/salvar.php:47
+[02-Jun-2017 11:48:19 UTC] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, string given in /home/ubuntu/workspace/api/Acao/salvar.php on line 46
+[02-Jun-2017 11:48:19 UTC] PHP Stack trace:
+[02-Jun-2017 11:48:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[02-Jun-2017 11:48:19 UTC] PHP   2. date_format() /home/ubuntu/workspace/api/Acao/salvar.php:46
+[02-Jun-2017 11:48:19 UTC] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, string given in /home/ubuntu/workspace/api/Acao/salvar.php on line 47
+[02-Jun-2017 11:48:19 UTC] PHP Stack trace:
+[02-Jun-2017 11:48:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[02-Jun-2017 11:48:19 UTC] PHP   2. date_format() /home/ubuntu/workspace/api/Acao/salvar.php:47
+[02-Jun-2017 11:48:37 UTC] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, string given in /home/ubuntu/workspace/api/Acao/salvar.php on line 46
+[02-Jun-2017 11:48:37 UTC] PHP Stack trace:
+[02-Jun-2017 11:48:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[02-Jun-2017 11:48:37 UTC] PHP   2. date_format() /home/ubuntu/workspace/api/Acao/salvar.php:46
+[02-Jun-2017 11:48:37 UTC] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, string given in /home/ubuntu/workspace/api/Acao/salvar.php on line 47
+[02-Jun-2017 11:48:37 UTC] PHP Stack trace:
+[02-Jun-2017 11:48:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[02-Jun-2017 11:48:37 UTC] PHP   2. date_format() /home/ubuntu/workspace/api/Acao/salvar.php:47
+[02-Jun-2017 11:53:06 UTC] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, boolean given in /home/ubuntu/workspace/api/Acao/salvar.php on line 46
+[02-Jun-2017 11:53:06 UTC] PHP Stack trace:
+[02-Jun-2017 11:53:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[02-Jun-2017 11:53:06 UTC] PHP   2. date_format() /home/ubuntu/workspace/api/Acao/salvar.php:46
+[02-Jun-2017 11:53:06 UTC] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, boolean given in /home/ubuntu/workspace/api/Acao/salvar.php on line 47
+[02-Jun-2017 11:53:06 UTC] PHP Stack trace:
+[02-Jun-2017 11:53:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[02-Jun-2017 11:53:06 UTC] PHP   2. date_format() /home/ubuntu/workspace/api/Acao/salvar.php:47
+[02-Jun-2017 11:53:55 UTC] PHP Warning:  date_create() expects parameter 2 to be DateTimeZone, string given in /home/ubuntu/workspace/api/Acao/salvar.php on line 46
+[02-Jun-2017 11:53:55 UTC] PHP Stack trace:
+[02-Jun-2017 11:53:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[02-Jun-2017 11:53:55 UTC] PHP   2. date_create() /home/ubuntu/workspace/api/Acao/salvar.php:46
+[02-Jun-2017 11:53:55 UTC] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, boolean given in /home/ubuntu/workspace/api/Acao/salvar.php on line 46
+[02-Jun-2017 11:53:55 UTC] PHP Stack trace:
+[02-Jun-2017 11:53:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[02-Jun-2017 11:53:55 UTC] PHP   2. date_format() /home/ubuntu/workspace/api/Acao/salvar.php:46
+[02-Jun-2017 11:53:55 UTC] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, boolean given in /home/ubuntu/workspace/api/Acao/salvar.php on line 47
+[02-Jun-2017 11:53:55 UTC] PHP Stack trace:
+[02-Jun-2017 11:53:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[02-Jun-2017 11:53:55 UTC] PHP   2. date_format() /home/ubuntu/workspace/api/Acao/salvar.php:47
+[02-Jun-2017 11:54:35 UTC] PHP Warning:  date_create() expects parameter 2 to be DateTimeZone, string given in /home/ubuntu/workspace/api/Acao/salvar.php on line 46
+[02-Jun-2017 11:54:35 UTC] PHP Stack trace:
+[02-Jun-2017 11:54:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[02-Jun-2017 11:54:35 UTC] PHP   2. date_create() /home/ubuntu/workspace/api/Acao/salvar.php:46
+[02-Jun-2017 11:54:35 UTC] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, boolean given in /home/ubuntu/workspace/api/Acao/salvar.php on line 46
+[02-Jun-2017 11:54:35 UTC] PHP Stack trace:
+[02-Jun-2017 11:54:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[02-Jun-2017 11:54:35 UTC] PHP   2. date_format() /home/ubuntu/workspace/api/Acao/salvar.php:46
+[02-Jun-2017 11:54:35 UTC] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, boolean given in /home/ubuntu/workspace/api/Acao/salvar.php on line 47
+[02-Jun-2017 11:54:35 UTC] PHP Stack trace:
+[02-Jun-2017 11:54:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[02-Jun-2017 11:54:35 UTC] PHP   2. date_format() /home/ubuntu/workspace/api/Acao/salvar.php:47
+[12-Sep-2017 15:05:10 UTC] PHP Catchable fatal error:  Argument 1 passed to RedBeanPHP\DuplicationManager::dup() must be an instance of RedBeanPHP\OODBBean, null given, called in /home/ubuntu/workspace/api/Utils/rb.php on line 12546 and defined in /home/ubuntu/workspace/api/Utils/rb.php on line 12480
+[12-Sep-2017 15:05:10 UTC] PHP Stack trace:
+[12-Sep-2017 15:05:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/buscarPorId.php:0
+[12-Sep-2017 15:05:10 UTC] PHP   2. respostaJson() /home/ubuntu/workspace/api/Acao/buscarPorId.php:56
+[12-Sep-2017 15:05:10 UTC] PHP   3. RedBeanPHP\Facade::exportAll() /home/ubuntu/workspace/api/Utils/JsonUtils.php:13
+[12-Sep-2017 15:05:10 UTC] PHP   4. RedBeanPHP\DuplicationManager->exportAll() /home/ubuntu/workspace/api/Utils/rb.php:11137
+[12-Sep-2017 15:05:10 UTC] PHP   5. RedBeanPHP\DuplicationManager->dup() /home/ubuntu/workspace/api/Utils/rb.php:12546
+[26-Sep-2017 00:15:01 UTC] PHP Catchable fatal error:  Argument 1 passed to RedBeanPHP\DuplicationManager::dup() must be an instance of RedBeanPHP\OODBBean, null given, called in /home/ubuntu/workspace/api/Utils/rb.php on line 12546 and defined in /home/ubuntu/workspace/api/Utils/rb.php on line 12480
+[26-Sep-2017 00:15:01 UTC] PHP Stack trace:
+[26-Sep-2017 00:15:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/buscarPorId.php:0
+[26-Sep-2017 00:15:01 UTC] PHP   2. respostaJson() /home/ubuntu/workspace/api/Acao/buscarPorId.php:56
+[26-Sep-2017 00:15:01 UTC] PHP   3. RedBeanPHP\Facade::exportAll() /home/ubuntu/workspace/api/Utils/JsonUtils.php:13
+[26-Sep-2017 00:15:01 UTC] PHP   4. RedBeanPHP\DuplicationManager->exportAll() /home/ubuntu/workspace/api/Utils/rb.php:11137
+[26-Sep-2017 00:15:01 UTC] PHP   5. RedBeanPHP\DuplicationManager->dup() /home/ubuntu/workspace/api/Utils/rb.php:12546
+[18-Oct-2017 12:17:00 UTC] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, boolean given in /home/ubuntu/workspace/api/Acao/salvar.php on line 46
+[18-Oct-2017 12:17:00 UTC] PHP Stack trace:
+[18-Oct-2017 12:17:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[18-Oct-2017 12:17:00 UTC] PHP   2. date_format() /home/ubuntu/workspace/api/Acao/salvar.php:46
+[18-Oct-2017 12:17:00 UTC] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, boolean given in /home/ubuntu/workspace/api/Acao/salvar.php on line 47
+[18-Oct-2017 12:17:00 UTC] PHP Stack trace:
+[18-Oct-2017 12:17:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[18-Oct-2017 12:17:00 UTC] PHP   2. date_format() /home/ubuntu/workspace/api/Acao/salvar.php:47
+[18-Oct-2017 12:19:24 UTC] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, boolean given in /home/ubuntu/workspace/api/Acao/salvar.php on line 46
+[18-Oct-2017 12:19:24 UTC] PHP Stack trace:
+[18-Oct-2017 12:19:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[18-Oct-2017 12:19:24 UTC] PHP   2. date_format() /home/ubuntu/workspace/api/Acao/salvar.php:46
+[18-Oct-2017 12:19:24 UTC] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, boolean given in /home/ubuntu/workspace/api/Acao/salvar.php on line 47
+[18-Oct-2017 12:19:24 UTC] PHP Stack trace:
+[18-Oct-2017 12:19:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[18-Oct-2017 12:19:24 UTC] PHP   2. date_format() /home/ubuntu/workspace/api/Acao/salvar.php:47
+[18-Oct-2017 13:18:13 UTC] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, boolean given in /home/ubuntu/workspace/api/Acao/salvar.php on line 46
+[18-Oct-2017 13:18:13 UTC] PHP Stack trace:
+[18-Oct-2017 13:18:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[18-Oct-2017 13:18:13 UTC] PHP   2. date_format() /home/ubuntu/workspace/api/Acao/salvar.php:46
+[18-Oct-2017 13:18:13 UTC] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, boolean given in /home/ubuntu/workspace/api/Acao/salvar.php on line 47
+[18-Oct-2017 13:18:13 UTC] PHP Stack trace:
+[18-Oct-2017 13:18:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[18-Oct-2017 13:18:13 UTC] PHP   2. date_format() /home/ubuntu/workspace/api/Acao/salvar.php:47
+[18-Oct-2017 13:18:13 UTC] PHP Warning:  explode() expects parameter 2 to be string, array given in /home/ubuntu/workspace/api/Acao/salvar.php on line 55
+[18-Oct-2017 13:18:13 UTC] PHP Stack trace:
+[18-Oct-2017 13:18:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[18-Oct-2017 13:18:13 UTC] PHP   2. explode() /home/ubuntu/workspace/api/Acao/salvar.php:55
+[18-Oct-2017 13:18:13 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/api/Acao/salvar.php on line 55
+[18-Oct-2017 13:18:13 UTC] PHP Stack trace:
+[18-Oct-2017 13:18:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[18-Oct-2017 13:18:13 UTC] PHP Warning:  explode() expects parameter 2 to be string, array given in /home/ubuntu/workspace/api/Acao/salvar.php on line 63
+[18-Oct-2017 13:18:13 UTC] PHP Stack trace:
+[18-Oct-2017 13:18:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[18-Oct-2017 13:18:13 UTC] PHP   2. explode() /home/ubuntu/workspace/api/Acao/salvar.php:63
+[18-Oct-2017 13:18:13 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/api/Acao/salvar.php on line 63
+[18-Oct-2017 13:18:13 UTC] PHP Stack trace:
+[18-Oct-2017 13:18:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[18-Oct-2017 13:18:24 UTC] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, boolean given in /home/ubuntu/workspace/api/Acao/salvar.php on line 46
+[18-Oct-2017 13:18:24 UTC] PHP Stack trace:
+[18-Oct-2017 13:18:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[18-Oct-2017 13:18:24 UTC] PHP   2. date_format() /home/ubuntu/workspace/api/Acao/salvar.php:46
+[18-Oct-2017 13:18:24 UTC] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, boolean given in /home/ubuntu/workspace/api/Acao/salvar.php on line 47
+[18-Oct-2017 13:18:24 UTC] PHP Stack trace:
+[18-Oct-2017 13:18:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[18-Oct-2017 13:18:24 UTC] PHP   2. date_format() /home/ubuntu/workspace/api/Acao/salvar.php:47
+[18-Oct-2017 13:18:24 UTC] PHP Warning:  explode() expects parameter 2 to be string, array given in /home/ubuntu/workspace/api/Acao/salvar.php on line 55
+[18-Oct-2017 13:18:24 UTC] PHP Stack trace:
+[18-Oct-2017 13:18:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[18-Oct-2017 13:18:24 UTC] PHP   2. explode() /home/ubuntu/workspace/api/Acao/salvar.php:55
+[18-Oct-2017 13:18:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/api/Acao/salvar.php on line 55
+[18-Oct-2017 13:18:24 UTC] PHP Stack trace:
+[18-Oct-2017 13:18:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[18-Oct-2017 13:18:24 UTC] PHP Warning:  explode() expects parameter 2 to be string, array given in /home/ubuntu/workspace/api/Acao/salvar.php on line 63
+[18-Oct-2017 13:18:24 UTC] PHP Stack trace:
+[18-Oct-2017 13:18:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[18-Oct-2017 13:18:24 UTC] PHP   2. explode() /home/ubuntu/workspace/api/Acao/salvar.php:63
+[18-Oct-2017 13:18:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/api/Acao/salvar.php on line 63
+[18-Oct-2017 13:18:24 UTC] PHP Stack trace:
+[18-Oct-2017 13:18:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[19-Oct-2017 13:44:40 UTC] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, boolean given in /home/ubuntu/workspace/api/Acao/salvar.php on line 46
+[19-Oct-2017 13:44:40 UTC] PHP Stack trace:
+[19-Oct-2017 13:44:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[19-Oct-2017 13:44:40 UTC] PHP   2. date_format() /home/ubuntu/workspace/api/Acao/salvar.php:46
+[19-Oct-2017 13:44:40 UTC] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, boolean given in /home/ubuntu/workspace/api/Acao/salvar.php on line 47
+[19-Oct-2017 13:44:40 UTC] PHP Stack trace:
+[19-Oct-2017 13:44:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[19-Oct-2017 13:44:40 UTC] PHP   2. date_format() /home/ubuntu/workspace/api/Acao/salvar.php:47
+[19-Oct-2017 13:44:40 UTC] PHP Warning:  explode() expects parameter 2 to be string, array given in /home/ubuntu/workspace/api/Acao/salvar.php on line 55
+[19-Oct-2017 13:44:40 UTC] PHP Stack trace:
+[19-Oct-2017 13:44:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[19-Oct-2017 13:44:40 UTC] PHP   2. explode() /home/ubuntu/workspace/api/Acao/salvar.php:55
+[19-Oct-2017 13:44:40 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/api/Acao/salvar.php on line 55
+[19-Oct-2017 13:44:40 UTC] PHP Stack trace:
+[19-Oct-2017 13:44:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[19-Oct-2017 13:44:40 UTC] PHP Warning:  explode() expects parameter 2 to be string, array given in /home/ubuntu/workspace/api/Acao/salvar.php on line 63
+[19-Oct-2017 13:44:40 UTC] PHP Stack trace:
+[19-Oct-2017 13:44:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[19-Oct-2017 13:44:40 UTC] PHP   2. explode() /home/ubuntu/workspace/api/Acao/salvar.php:63
+[19-Oct-2017 13:44:40 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/api/Acao/salvar.php on line 63
+[19-Oct-2017 13:44:40 UTC] PHP Stack trace:
+[19-Oct-2017 13:44:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[19-Oct-2017 13:45:11 UTC] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, boolean given in /home/ubuntu/workspace/api/Acao/salvar.php on line 46
+[19-Oct-2017 13:45:11 UTC] PHP Stack trace:
+[19-Oct-2017 13:45:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[19-Oct-2017 13:45:11 UTC] PHP   2. date_format() /home/ubuntu/workspace/api/Acao/salvar.php:46
+[19-Oct-2017 13:45:11 UTC] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, boolean given in /home/ubuntu/workspace/api/Acao/salvar.php on line 47
+[19-Oct-2017 13:45:11 UTC] PHP Stack trace:
+[19-Oct-2017 13:45:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[19-Oct-2017 13:45:11 UTC] PHP   2. date_format() /home/ubuntu/workspace/api/Acao/salvar.php:47
+[19-Oct-2017 13:45:11 UTC] PHP Warning:  explode() expects parameter 2 to be string, array given in /home/ubuntu/workspace/api/Acao/salvar.php on line 55
+[19-Oct-2017 13:45:11 UTC] PHP Stack trace:
+[19-Oct-2017 13:45:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[19-Oct-2017 13:45:11 UTC] PHP   2. explode() /home/ubuntu/workspace/api/Acao/salvar.php:55
+[19-Oct-2017 13:45:11 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/api/Acao/salvar.php on line 55
+[19-Oct-2017 13:45:11 UTC] PHP Stack trace:
+[19-Oct-2017 13:45:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[19-Oct-2017 13:45:11 UTC] PHP Warning:  explode() expects parameter 2 to be string, array given in /home/ubuntu/workspace/api/Acao/salvar.php on line 63
+[19-Oct-2017 13:45:11 UTC] PHP Stack trace:
+[19-Oct-2017 13:45:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[19-Oct-2017 13:45:11 UTC] PHP   2. explode() /home/ubuntu/workspace/api/Acao/salvar.php:63
+[19-Oct-2017 13:45:11 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/api/Acao/salvar.php on line 63
+[19-Oct-2017 13:45:11 UTC] PHP Stack trace:
+[19-Oct-2017 13:45:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[20-Oct-2017 11:18:32 UTC] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, boolean given in /home/ubuntu/workspace/api/Acao/salvar.php on line 46
+[20-Oct-2017 11:18:32 UTC] PHP Stack trace:
+[20-Oct-2017 11:18:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[20-Oct-2017 11:18:32 UTC] PHP   2. date_format() /home/ubuntu/workspace/api/Acao/salvar.php:46
+[20-Oct-2017 11:18:32 UTC] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, boolean given in /home/ubuntu/workspace/api/Acao/salvar.php on line 47
+[20-Oct-2017 11:18:32 UTC] PHP Stack trace:
+[20-Oct-2017 11:18:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[20-Oct-2017 11:18:32 UTC] PHP   2. date_format() /home/ubuntu/workspace/api/Acao/salvar.php:47
+[20-Oct-2017 11:18:32 UTC] PHP Warning:  explode() expects parameter 2 to be string, array given in /home/ubuntu/workspace/api/Acao/salvar.php on line 55
+[20-Oct-2017 11:18:32 UTC] PHP Stack trace:
+[20-Oct-2017 11:18:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[20-Oct-2017 11:18:32 UTC] PHP   2. explode() /home/ubuntu/workspace/api/Acao/salvar.php:55
+[20-Oct-2017 11:18:32 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/api/Acao/salvar.php on line 55
+[20-Oct-2017 11:18:32 UTC] PHP Stack trace:
+[20-Oct-2017 11:18:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[20-Oct-2017 11:18:32 UTC] PHP Warning:  explode() expects parameter 2 to be string, array given in /home/ubuntu/workspace/api/Acao/salvar.php on line 63
+[20-Oct-2017 11:18:32 UTC] PHP Stack trace:
+[20-Oct-2017 11:18:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[20-Oct-2017 11:18:32 UTC] PHP   2. explode() /home/ubuntu/workspace/api/Acao/salvar.php:63
+[20-Oct-2017 11:18:32 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/api/Acao/salvar.php on line 63
+[20-Oct-2017 11:18:32 UTC] PHP Stack trace:
+[20-Oct-2017 11:18:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[20-Oct-2017 11:18:34 UTC] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, boolean given in /home/ubuntu/workspace/api/Acao/salvar.php on line 46
+[20-Oct-2017 11:18:34 UTC] PHP Stack trace:
+[20-Oct-2017 11:18:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[20-Oct-2017 11:18:34 UTC] PHP   2. date_format() /home/ubuntu/workspace/api/Acao/salvar.php:46
+[20-Oct-2017 11:18:34 UTC] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, boolean given in /home/ubuntu/workspace/api/Acao/salvar.php on line 47
+[20-Oct-2017 11:18:34 UTC] PHP Stack trace:
+[20-Oct-2017 11:18:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[20-Oct-2017 11:18:34 UTC] PHP   2. date_format() /home/ubuntu/workspace/api/Acao/salvar.php:47
+[20-Oct-2017 11:18:34 UTC] PHP Warning:  explode() expects parameter 2 to be string, array given in /home/ubuntu/workspace/api/Acao/salvar.php on line 55
+[20-Oct-2017 11:18:34 UTC] PHP Stack trace:
+[20-Oct-2017 11:18:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[20-Oct-2017 11:18:34 UTC] PHP   2. explode() /home/ubuntu/workspace/api/Acao/salvar.php:55
+[20-Oct-2017 11:18:34 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/api/Acao/salvar.php on line 55
+[20-Oct-2017 11:18:34 UTC] PHP Stack trace:
+[20-Oct-2017 11:18:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[20-Oct-2017 11:18:34 UTC] PHP Warning:  explode() expects parameter 2 to be string, array given in /home/ubuntu/workspace/api/Acao/salvar.php on line 63
+[20-Oct-2017 11:18:34 UTC] PHP Stack trace:
+[20-Oct-2017 11:18:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[20-Oct-2017 11:18:34 UTC] PHP   2. explode() /home/ubuntu/workspace/api/Acao/salvar.php:63
+[20-Oct-2017 11:18:34 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/api/Acao/salvar.php on line 63
+[20-Oct-2017 11:18:34 UTC] PHP Stack trace:
+[20-Oct-2017 11:18:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[20-Oct-2017 11:19:09 UTC] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, boolean given in /home/ubuntu/workspace/api/Acao/salvar.php on line 46
+[20-Oct-2017 11:19:09 UTC] PHP Stack trace:
+[20-Oct-2017 11:19:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[20-Oct-2017 11:19:09 UTC] PHP   2. date_format() /home/ubuntu/workspace/api/Acao/salvar.php:46
+[20-Oct-2017 11:19:09 UTC] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, boolean given in /home/ubuntu/workspace/api/Acao/salvar.php on line 47
+[20-Oct-2017 11:19:09 UTC] PHP Stack trace:
+[20-Oct-2017 11:19:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[20-Oct-2017 11:19:09 UTC] PHP   2. date_format() /home/ubuntu/workspace/api/Acao/salvar.php:47
+[20-Oct-2017 11:19:09 UTC] PHP Warning:  explode() expects parameter 2 to be string, array given in /home/ubuntu/workspace/api/Acao/salvar.php on line 55
+[20-Oct-2017 11:19:09 UTC] PHP Stack trace:
+[20-Oct-2017 11:19:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[20-Oct-2017 11:19:09 UTC] PHP   2. explode() /home/ubuntu/workspace/api/Acao/salvar.php:55
+[20-Oct-2017 11:19:09 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/api/Acao/salvar.php on line 55
+[20-Oct-2017 11:19:09 UTC] PHP Stack trace:
+[20-Oct-2017 11:19:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[20-Oct-2017 11:19:09 UTC] PHP Warning:  explode() expects parameter 2 to be string, array given in /home/ubuntu/workspace/api/Acao/salvar.php on line 63
+[20-Oct-2017 11:19:09 UTC] PHP Stack trace:
+[20-Oct-2017 11:19:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[20-Oct-2017 11:19:09 UTC] PHP   2. explode() /home/ubuntu/workspace/api/Acao/salvar.php:63
+[20-Oct-2017 11:19:09 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/api/Acao/salvar.php on line 63
+[20-Oct-2017 11:19:09 UTC] PHP Stack trace:
+[20-Oct-2017 11:19:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[20-Oct-2017 11:19:30 UTC] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, boolean given in /home/ubuntu/workspace/api/Acao/salvar.php on line 46
+[20-Oct-2017 11:19:30 UTC] PHP Stack trace:
+[20-Oct-2017 11:19:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[20-Oct-2017 11:19:30 UTC] PHP   2. date_format() /home/ubuntu/workspace/api/Acao/salvar.php:46
+[20-Oct-2017 11:19:30 UTC] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, boolean given in /home/ubuntu/workspace/api/Acao/salvar.php on line 47
+[20-Oct-2017 11:19:30 UTC] PHP Stack trace:
+[20-Oct-2017 11:19:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[20-Oct-2017 11:19:30 UTC] PHP   2. date_format() /home/ubuntu/workspace/api/Acao/salvar.php:47
+[20-Oct-2017 11:19:30 UTC] PHP Warning:  explode() expects parameter 2 to be string, array given in /home/ubuntu/workspace/api/Acao/salvar.php on line 55
+[20-Oct-2017 11:19:30 UTC] PHP Stack trace:
+[20-Oct-2017 11:19:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[20-Oct-2017 11:19:30 UTC] PHP   2. explode() /home/ubuntu/workspace/api/Acao/salvar.php:55
+[20-Oct-2017 11:19:30 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/api/Acao/salvar.php on line 55
+[20-Oct-2017 11:19:30 UTC] PHP Stack trace:
+[20-Oct-2017 11:19:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[20-Oct-2017 11:19:30 UTC] PHP Warning:  explode() expects parameter 2 to be string, array given in /home/ubuntu/workspace/api/Acao/salvar.php on line 63
+[20-Oct-2017 11:19:30 UTC] PHP Stack trace:
+[20-Oct-2017 11:19:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[20-Oct-2017 11:19:30 UTC] PHP   2. explode() /home/ubuntu/workspace/api/Acao/salvar.php:63
+[20-Oct-2017 11:19:30 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/api/Acao/salvar.php on line 63
+[20-Oct-2017 11:19:30 UTC] PHP Stack trace:
+[20-Oct-2017 11:19:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[20-Oct-2017 11:20:16 UTC] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, boolean given in /home/ubuntu/workspace/api/Acao/salvar.php on line 46
+[20-Oct-2017 11:20:16 UTC] PHP Stack trace:
+[20-Oct-2017 11:20:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[20-Oct-2017 11:20:16 UTC] PHP   2. date_format() /home/ubuntu/workspace/api/Acao/salvar.php:46
+[20-Oct-2017 11:20:16 UTC] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, boolean given in /home/ubuntu/workspace/api/Acao/salvar.php on line 47
+[20-Oct-2017 11:20:16 UTC] PHP Stack trace:
+[20-Oct-2017 11:20:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[20-Oct-2017 11:20:16 UTC] PHP   2. date_format() /home/ubuntu/workspace/api/Acao/salvar.php:47
+[20-Oct-2017 11:20:16 UTC] PHP Warning:  explode() expects parameter 2 to be string, array given in /home/ubuntu/workspace/api/Acao/salvar.php on line 55
+[20-Oct-2017 11:20:16 UTC] PHP Stack trace:
+[20-Oct-2017 11:20:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[20-Oct-2017 11:20:16 UTC] PHP   2. explode() /home/ubuntu/workspace/api/Acao/salvar.php:55
+[20-Oct-2017 11:20:16 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/api/Acao/salvar.php on line 55
+[20-Oct-2017 11:20:16 UTC] PHP Stack trace:
+[20-Oct-2017 11:20:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[20-Oct-2017 11:20:16 UTC] PHP Warning:  explode() expects parameter 2 to be string, array given in /home/ubuntu/workspace/api/Acao/salvar.php on line 63
+[20-Oct-2017 11:20:16 UTC] PHP Stack trace:
+[20-Oct-2017 11:20:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[20-Oct-2017 11:20:16 UTC] PHP   2. explode() /home/ubuntu/workspace/api/Acao/salvar.php:63
+[20-Oct-2017 11:20:16 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/api/Acao/salvar.php on line 63
+[20-Oct-2017 11:20:16 UTC] PHP Stack trace:
+[20-Oct-2017 11:20:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[20-Oct-2017 11:21:14 UTC] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, boolean given in /home/ubuntu/workspace/api/Acao/salvar.php on line 46
+[20-Oct-2017 11:21:14 UTC] PHP Stack trace:
+[20-Oct-2017 11:21:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[20-Oct-2017 11:21:14 UTC] PHP   2. date_format() /home/ubuntu/workspace/api/Acao/salvar.php:46
+[20-Oct-2017 11:21:14 UTC] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, boolean given in /home/ubuntu/workspace/api/Acao/salvar.php on line 47
+[20-Oct-2017 11:21:14 UTC] PHP Stack trace:
+[20-Oct-2017 11:21:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[20-Oct-2017 11:21:14 UTC] PHP   2. date_format() /home/ubuntu/workspace/api/Acao/salvar.php:47
+[20-Oct-2017 11:21:14 UTC] PHP Warning:  explode() expects parameter 2 to be string, array given in /home/ubuntu/workspace/api/Acao/salvar.php on line 55
+[20-Oct-2017 11:21:14 UTC] PHP Stack trace:
+[20-Oct-2017 11:21:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[20-Oct-2017 11:21:14 UTC] PHP   2. explode() /home/ubuntu/workspace/api/Acao/salvar.php:55
+[20-Oct-2017 11:21:14 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/api/Acao/salvar.php on line 55
+[20-Oct-2017 11:21:14 UTC] PHP Stack trace:
+[20-Oct-2017 11:21:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[20-Oct-2017 11:21:14 UTC] PHP Warning:  explode() expects parameter 2 to be string, array given in /home/ubuntu/workspace/api/Acao/salvar.php on line 63
+[20-Oct-2017 11:21:14 UTC] PHP Stack trace:
+[20-Oct-2017 11:21:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[20-Oct-2017 11:21:14 UTC] PHP   2. explode() /home/ubuntu/workspace/api/Acao/salvar.php:63
+[20-Oct-2017 11:21:14 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/api/Acao/salvar.php on line 63
+[20-Oct-2017 11:21:14 UTC] PHP Stack trace:
+[20-Oct-2017 11:21:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[20-Oct-2017 11:25:24 UTC] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, boolean given in /home/ubuntu/workspace/api/Acao/salvar.php on line 46
+[20-Oct-2017 11:25:24 UTC] PHP Stack trace:
+[20-Oct-2017 11:25:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[20-Oct-2017 11:25:24 UTC] PHP   2. date_format() /home/ubuntu/workspace/api/Acao/salvar.php:46
+[20-Oct-2017 11:25:24 UTC] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, boolean given in /home/ubuntu/workspace/api/Acao/salvar.php on line 47
+[20-Oct-2017 11:25:24 UTC] PHP Stack trace:
+[20-Oct-2017 11:25:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[20-Oct-2017 11:25:24 UTC] PHP   2. date_format() /home/ubuntu/workspace/api/Acao/salvar.php:47
+[20-Oct-2017 11:25:24 UTC] PHP Warning:  explode() expects parameter 2 to be string, array given in /home/ubuntu/workspace/api/Acao/salvar.php on line 55
+[20-Oct-2017 11:25:24 UTC] PHP Stack trace:
+[20-Oct-2017 11:25:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[20-Oct-2017 11:25:24 UTC] PHP   2. explode() /home/ubuntu/workspace/api/Acao/salvar.php:55
+[20-Oct-2017 11:25:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/api/Acao/salvar.php on line 55
+[20-Oct-2017 11:25:24 UTC] PHP Stack trace:
+[20-Oct-2017 11:25:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[20-Oct-2017 11:25:24 UTC] PHP Warning:  explode() expects parameter 2 to be string, array given in /home/ubuntu/workspace/api/Acao/salvar.php on line 63
+[20-Oct-2017 11:25:24 UTC] PHP Stack trace:
+[20-Oct-2017 11:25:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[20-Oct-2017 11:25:24 UTC] PHP   2. explode() /home/ubuntu/workspace/api/Acao/salvar.php:63
+[20-Oct-2017 11:25:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/api/Acao/salvar.php on line 63
+[20-Oct-2017 11:25:24 UTC] PHP Stack trace:
+[20-Oct-2017 11:25:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[20-Oct-2017 11:33:17 UTC] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, boolean given in /home/ubuntu/workspace/api/Acao/salvar.php on line 46
+[20-Oct-2017 11:33:17 UTC] PHP Stack trace:
+[20-Oct-2017 11:33:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[20-Oct-2017 11:33:17 UTC] PHP   2. date_format() /home/ubuntu/workspace/api/Acao/salvar.php:46
+[20-Oct-2017 11:33:17 UTC] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, boolean given in /home/ubuntu/workspace/api/Acao/salvar.php on line 47
+[20-Oct-2017 11:33:17 UTC] PHP Stack trace:
+[20-Oct-2017 11:33:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[20-Oct-2017 11:33:17 UTC] PHP   2. date_format() /home/ubuntu/workspace/api/Acao/salvar.php:47
+[20-Oct-2017 11:33:28 UTC] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, boolean given in /home/ubuntu/workspace/api/Acao/salvar.php on line 46
+[20-Oct-2017 11:33:28 UTC] PHP Stack trace:
+[20-Oct-2017 11:33:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[20-Oct-2017 11:33:28 UTC] PHP   2. date_format() /home/ubuntu/workspace/api/Acao/salvar.php:46
+[20-Oct-2017 11:33:28 UTC] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, boolean given in /home/ubuntu/workspace/api/Acao/salvar.php on line 47
+[20-Oct-2017 11:33:28 UTC] PHP Stack trace:
+[20-Oct-2017 11:33:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[20-Oct-2017 11:33:28 UTC] PHP   2. date_format() /home/ubuntu/workspace/api/Acao/salvar.php:47
+[20-Oct-2017 11:38:17 UTC] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, boolean given in /home/ubuntu/workspace/api/Acao/salvar.php on line 47
+[20-Oct-2017 11:38:17 UTC] PHP Stack trace:
+[20-Oct-2017 11:38:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[20-Oct-2017 11:38:17 UTC] PHP   2. date_format() /home/ubuntu/workspace/api/Acao/salvar.php:47
+[20-Oct-2017 11:39:10 UTC] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, boolean given in /home/ubuntu/workspace/api/Acao/salvar.php on line 47
+[20-Oct-2017 11:39:10 UTC] PHP Stack trace:
+[20-Oct-2017 11:39:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[20-Oct-2017 11:39:10 UTC] PHP   2. date_format() /home/ubuntu/workspace/api/Acao/salvar.php:47
+[20-Oct-2017 11:40:45 UTC] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, boolean given in /home/ubuntu/workspace/api/Acao/salvar.php on line 47
+[20-Oct-2017 11:40:45 UTC] PHP Stack trace:
+[20-Oct-2017 11:40:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[20-Oct-2017 11:40:45 UTC] PHP   2. date_format() /home/ubuntu/workspace/api/Acao/salvar.php:47
+[20-Oct-2017 11:48:02 UTC] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, boolean given in /home/ubuntu/workspace/api/Acao/salvar.php on line 47
+[20-Oct-2017 11:48:02 UTC] PHP Stack trace:
+[20-Oct-2017 11:48:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[20-Oct-2017 11:48:02 UTC] PHP   2. date_format() /home/ubuntu/workspace/api/Acao/salvar.php:47
+[20-Oct-2017 12:33:14 UTC] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, boolean given in /home/ubuntu/workspace/api/Acao/salvar.php on line 45
+[20-Oct-2017 12:33:14 UTC] PHP Stack trace:
+[20-Oct-2017 12:33:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[20-Oct-2017 12:33:14 UTC] PHP   2. date_format() /home/ubuntu/workspace/api/Acao/salvar.php:45
+[20-Oct-2017 20:00:44 UTC] PHP Warning:  explode() expects parameter 2 to be string, array given in /home/ubuntu/workspace/api/Acao/salvar.php on line 55
+[20-Oct-2017 20:00:44 UTC] PHP Stack trace:
+[20-Oct-2017 20:00:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[20-Oct-2017 20:00:44 UTC] PHP   2. explode() /home/ubuntu/workspace/api/Acao/salvar.php:55
+[20-Oct-2017 20:00:44 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/api/Acao/salvar.php on line 55
+[20-Oct-2017 20:00:44 UTC] PHP Stack trace:
+[20-Oct-2017 20:00:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[20-Oct-2017 20:00:44 UTC] PHP Warning:  explode() expects parameter 2 to be string, array given in /home/ubuntu/workspace/api/Acao/salvar.php on line 63
+[20-Oct-2017 20:00:44 UTC] PHP Stack trace:
+[20-Oct-2017 20:00:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[20-Oct-2017 20:00:44 UTC] PHP   2. explode() /home/ubuntu/workspace/api/Acao/salvar.php:63
+[20-Oct-2017 20:00:44 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/api/Acao/salvar.php on line 63
+[20-Oct-2017 20:00:44 UTC] PHP Stack trace:
+[20-Oct-2017 20:00:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[20-Oct-2017 20:01:40 UTC] PHP Warning:  explode() expects parameter 2 to be string, array given in /home/ubuntu/workspace/api/Acao/salvar.php on line 55
+[20-Oct-2017 20:01:40 UTC] PHP Stack trace:
+[20-Oct-2017 20:01:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[20-Oct-2017 20:01:40 UTC] PHP   2. explode() /home/ubuntu/workspace/api/Acao/salvar.php:55
+[20-Oct-2017 20:01:40 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/api/Acao/salvar.php on line 55
+[20-Oct-2017 20:01:40 UTC] PHP Stack trace:
+[20-Oct-2017 20:01:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[20-Oct-2017 20:01:40 UTC] PHP Warning:  explode() expects parameter 2 to be string, array given in /home/ubuntu/workspace/api/Acao/salvar.php on line 63
+[20-Oct-2017 20:01:40 UTC] PHP Stack trace:
+[20-Oct-2017 20:01:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[20-Oct-2017 20:01:40 UTC] PHP   2. explode() /home/ubuntu/workspace/api/Acao/salvar.php:63
+[20-Oct-2017 20:01:40 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/api/Acao/salvar.php on line 63
+[20-Oct-2017 20:01:40 UTC] PHP Stack trace:
+[20-Oct-2017 20:01:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[20-Oct-2017 20:02:30 UTC] PHP Warning:  explode() expects parameter 2 to be string, array given in /home/ubuntu/workspace/api/Acao/salvar.php on line 55
+[20-Oct-2017 20:02:30 UTC] PHP Stack trace:
+[20-Oct-2017 20:02:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[20-Oct-2017 20:02:30 UTC] PHP   2. explode() /home/ubuntu/workspace/api/Acao/salvar.php:55
+[20-Oct-2017 20:02:30 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/api/Acao/salvar.php on line 55
+[20-Oct-2017 20:02:30 UTC] PHP Stack trace:
+[20-Oct-2017 20:02:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[20-Oct-2017 20:02:30 UTC] PHP Warning:  explode() expects parameter 2 to be string, array given in /home/ubuntu/workspace/api/Acao/salvar.php on line 63
+[20-Oct-2017 20:02:30 UTC] PHP Stack trace:
+[20-Oct-2017 20:02:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[20-Oct-2017 20:02:30 UTC] PHP   2. explode() /home/ubuntu/workspace/api/Acao/salvar.php:63
+[20-Oct-2017 20:02:30 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/api/Acao/salvar.php on line 63
+[20-Oct-2017 20:02:30 UTC] PHP Stack trace:
+[20-Oct-2017 20:02:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[20-Oct-2017 20:02:40 UTC] PHP Warning:  explode() expects parameter 2 to be string, array given in /home/ubuntu/workspace/api/Acao/salvar.php on line 55
+[20-Oct-2017 20:02:40 UTC] PHP Stack trace:
+[20-Oct-2017 20:02:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[20-Oct-2017 20:02:40 UTC] PHP   2. explode() /home/ubuntu/workspace/api/Acao/salvar.php:55
+[20-Oct-2017 20:02:40 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/api/Acao/salvar.php on line 55
+[20-Oct-2017 20:02:40 UTC] PHP Stack trace:
+[20-Oct-2017 20:02:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[20-Oct-2017 20:02:40 UTC] PHP Warning:  explode() expects parameter 2 to be string, array given in /home/ubuntu/workspace/api/Acao/salvar.php on line 63
+[20-Oct-2017 20:02:40 UTC] PHP Stack trace:
+[20-Oct-2017 20:02:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[20-Oct-2017 20:02:40 UTC] PHP   2. explode() /home/ubuntu/workspace/api/Acao/salvar.php:63
+[20-Oct-2017 20:02:40 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/api/Acao/salvar.php on line 63
+[20-Oct-2017 20:02:40 UTC] PHP Stack trace:
+[20-Oct-2017 20:02:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/salvar.php:0
+[16-Nov-2017 23:53:42 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/ubuntu/workspace/api/Acao/pesquisar.php on line 37
+[16-Nov-2017 23:53:42 UTC] PHP Stack trace:
+[16-Nov-2017 23:53:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/pesquisar.php:0
+[16-Nov-2017 23:53:42 UTC] PHP   2. implode() /home/ubuntu/workspace/api/Acao/pesquisar.php:37
+[20-Nov-2017 22:03:55 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/ubuntu/workspace/api/Acao/pesquisar.php on line 37
+[20-Nov-2017 22:03:55 UTC] PHP Stack trace:
+[20-Nov-2017 22:03:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/pesquisar.php:0
+[20-Nov-2017 22:03:55 UTC] PHP   2. implode() /home/ubuntu/workspace/api/Acao/pesquisar.php:37
+[20-Nov-2017 22:19:29 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/ubuntu/workspace/api/Acao/pesquisar.php on line 37
+[20-Nov-2017 22:19:29 UTC] PHP Stack trace:
+[20-Nov-2017 22:19:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/pesquisar.php:0
+[20-Nov-2017 22:19:29 UTC] PHP   2. implode() /home/ubuntu/workspace/api/Acao/pesquisar.php:37
+[21-Nov-2017 13:38:07 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/ubuntu/workspace/api/Acao/pesquisar.php on line 37
+[21-Nov-2017 13:38:07 UTC] PHP Stack trace:
+[21-Nov-2017 13:38:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/pesquisar.php:0
+[21-Nov-2017 13:38:07 UTC] PHP   2. implode() /home/ubuntu/workspace/api/Acao/pesquisar.php:37
+[21-Nov-2017 14:10:08 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/ubuntu/workspace/api/Acao/pesquisar.php on line 37
+[21-Nov-2017 14:10:08 UTC] PHP Stack trace:
+[21-Nov-2017 14:10:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/pesquisar.php:0
+[21-Nov-2017 14:10:08 UTC] PHP   2. implode() /home/ubuntu/workspace/api/Acao/pesquisar.php:37
+[21-Nov-2017 14:47:23 UTC] PHP Warning:  include(mpdf60/mpdf.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/api/Acao/pesquisar.php on line 2
+[21-Nov-2017 14:47:23 UTC] PHP Stack trace:
+[21-Nov-2017 14:47:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/pesquisar.php:0
+[21-Nov-2017 14:47:23 UTC] PHP Warning:  include(): Failed opening 'mpdf60/mpdf.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/api/Acao/pesquisar.php on line 2
+[21-Nov-2017 14:47:23 UTC] PHP Stack trace:
+[21-Nov-2017 14:47:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/pesquisar.php:0
+[21-Nov-2017 14:50:29 UTC] PHP Warning:  include(mpdf60/mpdf.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/api/Acao/pesquisar.php on line 2
+[21-Nov-2017 14:50:29 UTC] PHP Stack trace:
+[21-Nov-2017 14:50:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/pesquisar.php:0
+[21-Nov-2017 14:50:29 UTC] PHP Warning:  include(): Failed opening 'mpdf60/mpdf.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/api/Acao/pesquisar.php on line 2
+[21-Nov-2017 14:50:29 UTC] PHP Stack trace:
+[21-Nov-2017 14:50:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/pesquisar.php:0
+[21-Nov-2017 14:51:05 UTC] PHP Warning:  include(mpdf60/mpdf.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/api/Acao/pesquisar.php on line 2
+[21-Nov-2017 14:51:05 UTC] PHP Stack trace:
+[21-Nov-2017 14:51:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/pesquisar.php:0
+[21-Nov-2017 14:51:05 UTC] PHP Warning:  include(): Failed opening 'mpdf60/mpdf.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/api/Acao/pesquisar.php on line 2
+[21-Nov-2017 14:51:05 UTC] PHP Stack trace:
+[21-Nov-2017 14:51:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/pesquisar.php:0
+[21-Nov-2017 14:54:03 UTC] PHP Warning:  include(mpdf60/mpdf.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/api/Acao/pesquisar.php on line 2
+[21-Nov-2017 14:54:03 UTC] PHP Stack trace:
+[21-Nov-2017 14:54:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/pesquisar.php:0
+[21-Nov-2017 14:54:03 UTC] PHP Warning:  include(): Failed opening 'mpdf60/mpdf.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/api/Acao/pesquisar.php on line 2
+[21-Nov-2017 14:54:03 UTC] PHP Stack trace:
+[21-Nov-2017 14:54:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/pesquisar.php:0
+[21-Nov-2017 14:58:33 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/ubuntu/workspace/api/Acao/pesquisar.php on line 35
+[21-Nov-2017 14:58:33 UTC] PHP Stack trace:
+[21-Nov-2017 14:58:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/pesquisar.php:0
+[21-Nov-2017 14:58:33 UTC] PHP   2. implode() /home/ubuntu/workspace/api/Acao/pesquisar.php:35
+[24-Nov-2017 22:37:27 UTC] PHP Catchable fatal error:  Argument 1 passed to RedBeanPHP\DuplicationManager::dup() must be an instance of RedBeanPHP\OODBBean, null given, called in /home/ubuntu/workspace/api/Utils/rb.php on line 12546 and defined in /home/ubuntu/workspace/api/Utils/rb.php on line 12480
+[24-Nov-2017 22:37:27 UTC] PHP Stack trace:
+[24-Nov-2017 22:37:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Situacao/buscarPorId.php:0
+[24-Nov-2017 22:37:27 UTC] PHP   2. respostaJson() /home/ubuntu/workspace/api/Situacao/buscarPorId.php:11
+[24-Nov-2017 22:37:27 UTC] PHP   3. RedBeanPHP\Facade::exportAll() /home/ubuntu/workspace/api/Utils/JsonUtils.php:13
+[24-Nov-2017 22:37:27 UTC] PHP   4. RedBeanPHP\DuplicationManager->exportAll() /home/ubuntu/workspace/api/Utils/rb.php:11137
+[24-Nov-2017 22:37:27 UTC] PHP   5. RedBeanPHP\DuplicationManager->dup() /home/ubuntu/workspace/api/Utils/rb.php:12546
+[24-Nov-2017 22:39:36 UTC] PHP Catchable fatal error:  Argument 1 passed to RedBeanPHP\DuplicationManager::dup() must be an instance of RedBeanPHP\OODBBean, null given, called in /home/ubuntu/workspace/api/Utils/rb.php on line 12546 and defined in /home/ubuntu/workspace/api/Utils/rb.php on line 12480
+[24-Nov-2017 22:39:36 UTC] PHP Stack trace:
+[24-Nov-2017 22:39:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Situacao/buscarPorId.php:0
+[24-Nov-2017 22:39:36 UTC] PHP   2. respostaJson() /home/ubuntu/workspace/api/Situacao/buscarPorId.php:11
+[24-Nov-2017 22:39:36 UTC] PHP   3. RedBeanPHP\Facade::exportAll() /home/ubuntu/workspace/api/Utils/JsonUtils.php:13
+[24-Nov-2017 22:39:36 UTC] PHP   4. RedBeanPHP\DuplicationManager->exportAll() /home/ubuntu/workspace/api/Utils/rb.php:11137
+[24-Nov-2017 22:39:36 UTC] PHP   5. RedBeanPHP\DuplicationManager->dup() /home/ubuntu/workspace/api/Utils/rb.php:12546
+[24-Nov-2017 22:40:12 UTC] PHP Catchable fatal error:  Argument 1 passed to RedBeanPHP\DuplicationManager::dup() must be an instance of RedBeanPHP\OODBBean, null given, called in /home/ubuntu/workspace/api/Utils/rb.php on line 12546 and defined in /home/ubuntu/workspace/api/Utils/rb.php on line 12480
+[24-Nov-2017 22:40:12 UTC] PHP Stack trace:
+[24-Nov-2017 22:40:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Situacao/buscarPorId.php:0
+[24-Nov-2017 22:40:12 UTC] PHP   2. respostaJson() /home/ubuntu/workspace/api/Situacao/buscarPorId.php:11
+[24-Nov-2017 22:40:12 UTC] PHP   3. RedBeanPHP\Facade::exportAll() /home/ubuntu/workspace/api/Utils/JsonUtils.php:13
+[24-Nov-2017 22:40:12 UTC] PHP   4. RedBeanPHP\DuplicationManager->exportAll() /home/ubuntu/workspace/api/Utils/rb.php:11137
+[24-Nov-2017 22:40:12 UTC] PHP   5. RedBeanPHP\DuplicationManager->dup() /home/ubuntu/workspace/api/Utils/rb.php:12546
+[24-Nov-2017 22:40:41 UTC] PHP Catchable fatal error:  Argument 1 passed to RedBeanPHP\DuplicationManager::dup() must be an instance of RedBeanPHP\OODBBean, null given, called in /home/ubuntu/workspace/api/Utils/rb.php on line 12546 and defined in /home/ubuntu/workspace/api/Utils/rb.php on line 12480
+[24-Nov-2017 22:40:41 UTC] PHP Stack trace:
+[24-Nov-2017 22:40:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Situacao/buscarPorId.php:0
+[24-Nov-2017 22:40:41 UTC] PHP   2. respostaJson() /home/ubuntu/workspace/api/Situacao/buscarPorId.php:11
+[24-Nov-2017 22:40:41 UTC] PHP   3. RedBeanPHP\Facade::exportAll() /home/ubuntu/workspace/api/Utils/JsonUtils.php:13
+[24-Nov-2017 22:40:41 UTC] PHP   4. RedBeanPHP\DuplicationManager->exportAll() /home/ubuntu/workspace/api/Utils/rb.php:11137
+[24-Nov-2017 22:40:41 UTC] PHP   5. RedBeanPHP\DuplicationManager->dup() /home/ubuntu/workspace/api/Utils/rb.php:12546
+[24-Nov-2017 22:40:57 UTC] PHP Catchable fatal error:  Argument 1 passed to RedBeanPHP\DuplicationManager::dup() must be an instance of RedBeanPHP\OODBBean, null given, called in /home/ubuntu/workspace/api/Utils/rb.php on line 12546 and defined in /home/ubuntu/workspace/api/Utils/rb.php on line 12480
+[24-Nov-2017 22:40:57 UTC] PHP Stack trace:
+[24-Nov-2017 22:40:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Situacao/buscarPorId.php:0
+[24-Nov-2017 22:40:57 UTC] PHP   2. respostaJson() /home/ubuntu/workspace/api/Situacao/buscarPorId.php:11
+[24-Nov-2017 22:40:57 UTC] PHP   3. RedBeanPHP\Facade::exportAll() /home/ubuntu/workspace/api/Utils/JsonUtils.php:13
+[24-Nov-2017 22:40:57 UTC] PHP   4. RedBeanPHP\DuplicationManager->exportAll() /home/ubuntu/workspace/api/Utils/rb.php:11137
+[24-Nov-2017 22:40:57 UTC] PHP   5. RedBeanPHP\DuplicationManager->dup() /home/ubuntu/workspace/api/Utils/rb.php:12546
+[24-Nov-2017 22:43:08 UTC] PHP Catchable fatal error:  Argument 1 passed to RedBeanPHP\DuplicationManager::dup() must be an instance of RedBeanPHP\OODBBean, null given, called in /home/ubuntu/workspace/api/Utils/rb.php on line 12546 and defined in /home/ubuntu/workspace/api/Utils/rb.php on line 12480
+[24-Nov-2017 22:43:08 UTC] PHP Stack trace:
+[24-Nov-2017 22:43:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Situacao/buscarPorId.php:0
+[24-Nov-2017 22:43:08 UTC] PHP   2. respostaJson() /home/ubuntu/workspace/api/Situacao/buscarPorId.php:13
+[24-Nov-2017 22:43:08 UTC] PHP   3. RedBeanPHP\Facade::exportAll() /home/ubuntu/workspace/api/Utils/JsonUtils.php:13
+[24-Nov-2017 22:43:08 UTC] PHP   4. RedBeanPHP\DuplicationManager->exportAll() /home/ubuntu/workspace/api/Utils/rb.php:11137
+[24-Nov-2017 22:43:08 UTC] PHP   5. RedBeanPHP\DuplicationManager->dup() /home/ubuntu/workspace/api/Utils/rb.php:12546
+[24-Nov-2017 22:44:37 UTC] PHP Catchable fatal error:  Argument 1 passed to RedBeanPHP\DuplicationManager::dup() must be an instance of RedBeanPHP\OODBBean, null given, called in /home/ubuntu/workspace/api/Utils/rb.php on line 12546 and defined in /home/ubuntu/workspace/api/Utils/rb.php on line 12480
+[24-Nov-2017 22:44:37 UTC] PHP Stack trace:
+[24-Nov-2017 22:44:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Situacao/buscarPorId.php:0
+[24-Nov-2017 22:44:37 UTC] PHP   2. respostaJson() /home/ubuntu/workspace/api/Situacao/buscarPorId.php:13
+[24-Nov-2017 22:44:37 UTC] PHP   3. RedBeanPHP\Facade::exportAll() /home/ubuntu/workspace/api/Utils/JsonUtils.php:13
+[24-Nov-2017 22:44:37 UTC] PHP   4. RedBeanPHP\DuplicationManager->exportAll() /home/ubuntu/workspace/api/Utils/rb.php:11137
+[24-Nov-2017 22:44:37 UTC] PHP   5. RedBeanPHP\DuplicationManager->dup() /home/ubuntu/workspace/api/Utils/rb.php:12546
+[24-Nov-2017 22:44:42 UTC] PHP Catchable fatal error:  Argument 1 passed to RedBeanPHP\DuplicationManager::dup() must be an instance of RedBeanPHP\OODBBean, null given, called in /home/ubuntu/workspace/api/Utils/rb.php on line 12546 and defined in /home/ubuntu/workspace/api/Utils/rb.php on line 12480
+[24-Nov-2017 22:44:42 UTC] PHP Stack trace:
+[24-Nov-2017 22:44:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Situacao/buscarPorId.php:0
+[24-Nov-2017 22:44:42 UTC] PHP   2. respostaJson() /home/ubuntu/workspace/api/Situacao/buscarPorId.php:13
+[24-Nov-2017 22:44:42 UTC] PHP   3. RedBeanPHP\Facade::exportAll() /home/ubuntu/workspace/api/Utils/JsonUtils.php:13
+[24-Nov-2017 22:44:42 UTC] PHP   4. RedBeanPHP\DuplicationManager->exportAll() /home/ubuntu/workspace/api/Utils/rb.php:11137
+[24-Nov-2017 22:44:42 UTC] PHP   5. RedBeanPHP\DuplicationManager->dup() /home/ubuntu/workspace/api/Utils/rb.php:12546
+[24-Nov-2017 22:45:35 UTC] PHP Catchable fatal error:  Argument 1 passed to RedBeanPHP\DuplicationManager::dup() must be an instance of RedBeanPHP\OODBBean, null given, called in /home/ubuntu/workspace/api/Utils/rb.php on line 12546 and defined in /home/ubuntu/workspace/api/Utils/rb.php on line 12480
+[24-Nov-2017 22:45:35 UTC] PHP Stack trace:
+[24-Nov-2017 22:45:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Situacao/buscarPorId.php:0
+[24-Nov-2017 22:45:35 UTC] PHP   2. respostaJson() /home/ubuntu/workspace/api/Situacao/buscarPorId.php:13
+[24-Nov-2017 22:45:35 UTC] PHP   3. RedBeanPHP\Facade::exportAll() /home/ubuntu/workspace/api/Utils/JsonUtils.php:13
+[24-Nov-2017 22:45:35 UTC] PHP   4. RedBeanPHP\DuplicationManager->exportAll() /home/ubuntu/workspace/api/Utils/rb.php:11137
+[24-Nov-2017 22:45:35 UTC] PHP   5. RedBeanPHP\DuplicationManager->dup() /home/ubuntu/workspace/api/Utils/rb.php:12546
+[01-Dec-2017 16:31:32 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/ubuntu/workspace/api/Acao/pesquisar.php on line 35
+[01-Dec-2017 16:31:32 UTC] PHP Stack trace:
+[01-Dec-2017 16:31:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/pesquisar.php:0
+[01-Dec-2017 16:31:32 UTC] PHP   2. implode() /home/ubuntu/workspace/api/Acao/pesquisar.php:35
+[01-Dec-2017 16:42:29 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/ubuntu/workspace/api/Acao/pesquisar.php on line 35
+[01-Dec-2017 16:42:29 UTC] PHP Stack trace:
+[01-Dec-2017 16:42:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/pesquisar.php:0
+[01-Dec-2017 16:42:29 UTC] PHP   2. implode() /home/ubuntu/workspace/api/Acao/pesquisar.php:35
+[01-Dec-2017 16:44:22 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/ubuntu/workspace/api/Acao/pesquisar.php on line 35
+[01-Dec-2017 16:44:22 UTC] PHP Stack trace:
+[01-Dec-2017 16:44:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/pesquisar.php:0
+[01-Dec-2017 16:44:22 UTC] PHP   2. implode() /home/ubuntu/workspace/api/Acao/pesquisar.php:35
+[01-Dec-2017 16:44:40 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/ubuntu/workspace/api/Acao/pesquisar.php on line 35
+[01-Dec-2017 16:44:40 UTC] PHP Stack trace:
+[01-Dec-2017 16:44:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/api/Acao/pesquisar.php:0
+[01-Dec-2017 16:44:40 UTC] PHP   2. implode() /home/ubuntu/workspace/api/Acao/pesquisar.php:35
